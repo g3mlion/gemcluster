@@ -1,0 +1,114 @@
+/* AGATE - post
+coded & designed by BOO
+ALL RIGHTS RESERVED 2019 - present */
+
+#temp { 
+  --main:102, 102, 102;
+  --alt:153, 153, 153; }
+
+.agate {
+background:#f2f2f2;
+border:1px solid #e5e5e5;
+border-radius:15px;
+box-shadow:1px 2px 0px #e5e5e5;
+font-family:'poppins', sans-serif;
+font-size:14px;
+font-weight:400;
+line-height:22px;
+margin:30px auto;
+overflow:hidden;
+position:relative;
+text-align:center;
+text-shadow:
+  -1px 0 #fafafa,
+  0 1px #fafafa,
+  1px 0 #fafafa,
+  0 -1px #fafafa;
+width:380px;
+z-index:2; }
+
+.agate b {
+color:rgba(var(--main), 0.95); }
+.agate u {
+border-bottom:2px solid rgba(var(--alt), 0.5);
+font-weight:bold;
+text-decoration:none; }
+.agate hr.break {
+background:#ddd;
+border:0;
+height:1px;
+margin:15px -10px;
+padding:0px; }
+.agate ul {
+margin:3px 10px 5px;
+padding:0px; }
+
+.agate-top {
+padding:10px;
+text-align:center;
+position:absolute;
+  top:0px;left:0px;right:0px;
+  }
+.agate-top span {
+background:#eaeaea;
+border-radius:100%;
+font-size:54px;
+margin-top:-65px;
+padding:70px 55px 50px;
+position:relative;
+  }
+.agate-top span:before {
+display:block;
+ background: /* thanks pan! */
+  -webkit-linear-gradient(bottom right,
+  rgb(var(--main)), rgb(var(--alt)));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+color:rgb(var(--alt));
+opacity:0.65;
+text-shadow:none;
+  }
+.agate-ds {
+color:#626262;
+font-family:helvetica!important;
+font-size:9px;
+font-weight:900;
+margin:-80px 0px 15px;
+position:relative;
+z-index:2;  }
+.agate-ds:before, .agate-ds:after {
+content:'';
+background:#dadada;
+display:inline-block;
+height:0px; width:33%;
+margin:3px 10px;
+padding:1px 0px 0px;
+position:relative; }
+
+.agate-in {
+padding:100px 60px 50px;
+text-align:justify;
+position:relative;
+z-index:1; }
+.agate hr.break {
+background:#dadada;
+border:0px;
+display:block;
+height:1px;
+margin:25px -15px 20px; }
+
+.agate a.user-tagged {
+color:#666;
+font-size:11px;
+font-weight:700;
+margin-top:-10px;
+text-transform:uppercase; }
+.agate a.user-tagged:before {
+color:rgba(var(--alt), 0.5);
+content:'#';
+display:inline-block;
+font-size:14px;
+font-weight:900;
+margin-right:2px;
+position:relative;
+ top:1px;  }
