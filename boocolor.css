@@ -1,0 +1,40 @@
+/* CHARACTER COLORS */
+#temp { 
+  --main:102, 102, 102; 
+  --alt:153, 153, 153;
+  --unicode:'\bb4'; }
+
+#boo { 
+  --main:143, 179, 201;
+  --alt:140, 106, 148;
+  --unicode:'\bb4'; }
+
+#breez { /* IBREEZ MARANGOZ */
+  --main:157, 94, 143;
+  --alt:100, 66, 133;
+  --unicode:'\bb10'; }
+#colt { /* COLTON THILE */
+  --main:148, 58, 79;
+  --alt:117, 34, 76;
+  --unicode:'\bb7'; }
+#hedy { /* HEDY KEMPTON */
+  --main:119, 145, 116;
+  --alt:80, 135, 113;
+  --unicode:'\bb9'; }
+#helna { /* HELENA LAMARR */
+  --main:239, 126, 162;
+  --alt:219, 94, 163;
+  --unicode:'\a15'; }
+#lyonn { /* LYONNE DARLINGTON*/
+  --main:255, 123, 120;
+  --alt:232, 90, 105;
+  --unicode:'\bb8'; }
+#sage { /* SAGE ROYAL */
+  --main:136, 105, 151;
+  --alt:101, 86, 145;
+  --unicode:'\bb6'; }
+
+#rigby { /* RIGBY FAUST */
+  --main:199, 159, 107;
+  --alt:222, 152, 82;
+  --unicode:'\bb1'; }
