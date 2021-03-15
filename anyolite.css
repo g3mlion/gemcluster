@@ -1,0 +1,113 @@
+/* ANYOLITE - post
+coded & designed by BOO
+ALL RIGHTS RESERVED 2019 - PRESENT */
+
+#temp { 
+  --main:102, 102, 102;
+  --alt:153, 153, 153;
+  --unicode:'\bb2'; }
+
+.anyolite:before {
+content:'';
+background:rgba(var(--main),0.5);
+border-radius:0px 0px 300px 300px;
+height:50px;
+padding:0px 20px;
+position:absolute;
+  top:-0px; right:80px;
+z-index:1; }
+.anyolite:after {
+content:'';
+background:rgba(var(--main),0.75);
+border-radius:0px 0px 300px 300px;
+height:100px;
+padding:0px 20px;
+position:absolute;
+  top:0px; right:0px;
+z-index:-1; }
+.anyolite-bdy:after {
+content:'';
+background-image:
+linear-gradient(to right, #dadada 50%, rgba(var(--alt),0.45) 50%);
+border-radius:0px 0px 300px 300px;
+height:50px;
+padding:0px 40px;
+position:absolute;
+  top:-5px; right:0px;
+z-index:2; }
+
+.anyolite {
+background:#f2f2f2;
+border:1px solid #e3e3e3;
+border-radius:15px;
+box-shadow:2px 2px 1px #e3e3e3;
+font-family:'poppins', sans-serif;
+font-size:14px;
+line-height:23px;
+margin:30px auto;
+overflow:hidden;
+position:relative;
+text-align:center;
+width:380px;
+z-index:2; }
+.anyolite b { color:rgba(var(--main), 0.95); }
+.anyolite u {
+border-bottom:2px solid rgba(var(--alt), 0.5);
+font-weight:bold;
+text-decoration:none; }
+.anyolite hr {
+background:#d5d5d5;
+border:0;
+height:1px;
+margin:25px -10px;
+padding:0px; }
+.anyolite ul {
+margin:3px 10px 5px;
+padding:0px; }
+
+.anyolite-bdy {
+padding:60px 60px 50px;
+position:relative;
+text-align:justify;
+z-index:1; }
+
+.anyolite-bdy span:before {
+content:var(--unicode);
+font-family: 'boolovd', 'Starry', 'Honeybee';
+font-size:42px;
+color:#595959;
+border-radius:100%;
+display:inline-block;
+position:absolute;
+top:-15px; left:-18px; }
+.anyolite-bdy span {
+background:rgba(var(--main), 0.45);
+border-radius:100%;
+padding:15px;
+display:inline-block;
+margin:20px 10px;
+position:relative; }
+
+.anyolite-bse a.user-tagged:before { content:'#';  }
+.anyolite-bse a.user-tagged {
+background:#e5e5e5;
+border-radius:10px;
+color:#a0a0a0;
+font-size:10px;
+font-weight:600;
+line-height:17px;
+padding:2px 8px;
+display:inline-block;
+position:relative;
+  top:-1px;
+text-transform:uppercase; }
+
+.anyolite span.anyolite-ds {
+background:#e5e5e5;
+color:#a0a0a0;
+border-radius:300px 300px 0px 0px;
+font-size:10px;
+font-weight:600;
+position:absolute;
+padding:15px 20px 2px;
+ bottom:0px; right:0px; }
