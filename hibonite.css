@@ -352,7 +352,7 @@ background:rgba(var(--alt), 0.35);
 border-top-right-radius:200px;
 border-bottom-right-radius:200px;
 color:#fafafa!important;
-font-family:nunito;
+font-family:nunito, sans-serif;
 display:inline-block;
 font-size:18px;
 line-height:22px;
