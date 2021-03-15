@@ -227,6 +227,7 @@ display:inline-block;
 height:0px!important; width:0px!important;
 padding:3px; margin:-9px -5px 4px;
 position:relative;
+  top:-2.5px;
 z-index:3; }
 .hibon-sk span2:before {
 background:#d2d2d2;
