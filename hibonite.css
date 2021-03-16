@@ -130,37 +130,30 @@ z-index:2; }
 /* NOTES TAB */
 .hibon-nm {
 color:rgba(var(--main), 0.65);
-display:flex;
-  align-items:center;
-  justify-items:stretch;
 font-size:32px;
 font-family:nunito;
 font-weight:600;
 line-height:34px;
-margin-left:-12px;
-padding:8px 10px 0px;
-padding-top:15px!important;
-width:60%; }
+margin-left:74px;
+padding:20px 20px 5px;
+width:60%;
+ }
 .hibon-nm:before {
 border-right:1px solid #d9d9d9;
 color:rgba(var(--alt), 0.65);
-height:100%;
-margin-right:20px;
 font-size:42px;
 font-weight:400;
 content:var(--unicode);
 font-family: 'boolovd', 'Starry', 'Honeybee';
- display:inline-block;
-margin-top:-15px;
-padding:30px 15px 15px 20px;
-width:60px;
-margin-left:11px;
-height:30px; width:45px; }
+padding:25px 16px 0px;
+position:absolute;
+  top:0px; left:0px;
+ }
 
 .hibon-body {
 border-left:1px solid #d9d9d9;
 height:110px; width:57%;
-margin-left:75px;
+margin-left:74px;
 padding:20px 25px 50px;
 position:relative;
 text-align:justify; }
