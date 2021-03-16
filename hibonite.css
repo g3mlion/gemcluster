@@ -97,7 +97,7 @@ text-shadow:none;
 transition-duration:0.4s;
 transition-timing-function:ease-in-out;
 z-index:7; }
-input[type=radio]:checked ~ label {
+.hibonite input[type=radio]:checked ~ label {
 border-radius:100%;
 text-shadow:-1px 0 #eeeb, 
             0 1px #eeeb, 
@@ -117,9 +117,9 @@ transition-duration:0.9s;
 transition-timing-function:ease-in-out;
 z-index:-1; }
 
-.hibonite ::-webkit-scrollbar-track, .hibonite ::-webkit-scrollbar-thumb { background:transparent!important; }
+.hibonite::-webkit-scrollbar-track, .hibonite::-webkit-scrollbar-thumb { background:transparent!important; }
 
-input[type=radio]:checked ~ label ~ .hibonite-in { 
+.hibonite input[type=radio]:checked ~ label ~ .hibonite-in { 
 opacity:1;
 transition-duration:0.8s;
 transition-timing-function:ease-in-out;
