@@ -117,7 +117,9 @@ transition-duration:0.9s;
 transition-timing-function:ease-in-out;
 z-index:-1; }
 
-.hibonite::-webkit-scrollbar-track, .hibonite::-webkit-scrollbar-thumb { background:transparent!important; }
+.hobonite::-webkit-scrollbar { width:5px; }
+.hobonite::-webkit-scrollbar-button { display:none; }
+.hibonite::-webkit-scrollbar-track, .hibonite::-webkit-scrollbar-thumb { background:#eee; }
 
 .hibonite input[type=radio]:checked ~ label ~ .hibonite-in { 
 opacity:1;
