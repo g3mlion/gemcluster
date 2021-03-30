@@ -1,0 +1,201 @@
+<style type="text/css">
+/* HARC A BEAR
+coded & designed by BOO
+ALL RIGHTS RESERVED 2019 - PRESENT */
+
+#temp { 
+  --main:102, 102, 102;
+  --alt:153, 153, 153;
+  --unicode:'\a01'; }
+
+.harcabear {
+background:#eee;
+border:1px solid #e2e2e2;
+color:#555;
+font-family:'nunito', sans-serif;
+font-size: 14.5px; 
+line-height:23px;
+height:400px; width:600px;
+margin:20px auto;
+overflow:hidden;
+padding:20px;
+position:relative;
+text-align:left;
+}
+.harcabear b { color:rgba(var(--main), 1.0); font-weight:600; }
+.harcabear u {
+border-bottom:2px solid rgba(var(--alt), 0.5);
+font-weight:bold;
+text-decoration:none; }
+.harcabear hr {
+background:#d5d5d5;
+border:0;
+height:1px;
+margin:25px -10px;
+padding:0px; }
+
+.harcabear ::-webkit-scrollbar { width:5px; }
+.harcabear ::-webkit-scrollbar-button { display:none; }
+.harcabear ::-webkit-scrollbar-track, .harcabear ::-webkit-scrollbar-thumb { background:#f2f2f2; }
+
+.harcabear-out {
+height:400px; width:600px;
+position:relative;
+}
+
+.harcabear-tab {
+background:#fffa;
+width:25px;
+margin:0px!imporant;
+line-height:0px;
+display:block; /* or display:block */
+}
+.harcabear-tab input[type=radio] { display:none; padding:0px!imporant; margin:0px!important; }
+.harcabear-tab label {
+display:inline-block;
+padding:5px!important;
+margin:0px!imporant;
+position:relative;
+z-index:3;
+}
+.harcabear-tab label span {
+background:#ddd;
+display:inline-block;
+height:5px; width:5px;
+margin:5px 5px;
+border-radius:100%;
+}
+
+.harcabear-tab input[type=radio]:checked ~ label span {
+background:rgb(var(--main));
+}
+
+.harcabear-ct {
+background:#fff8;
+display:flex;
+  flex-flow: row nowrap;
+  justify-content:space-around;
+line-height:23px;
+position:absolute;
+  top:0px; bottom:0px;
+  left:0px; right:0px;
+z-index:-2;
+overflow:none;
+text-shadow: 
+  -1px 0 #fff,
+  0 1px #fff,
+  1px 0 #fff,
+  0 -1px #fff;
+}
+
+.harcabear-tab input[type=radio]:checked ~ label ~ .harcabear-ct {
+ z-index:1;
+}
+
+.harcabear-lft {
+position:relative;
+width:75%;
+z-index:1;
+}
+.harcabear-st {
+padding:10px 20px;
+width:310px;
+text-align:right;
+}
+.harcabear-st span {
+background:
+  -webkit-linear-gradient(top, rgba(var(--main), 0.4) 10%, rgb(var(--main)));
+  display:inline-block;
+  font-size:10px; line-height:14px;
+  font-weight:900;
+  color:#fafafa;
+  text-transform:uppercase;
+text-shadow: 
+  -1px 0 rgba(var(--alt), 0.85),
+  0 1px rgba(var(--alt), 0.85),
+  1px 0 rgba(var(--alt), 0.85),
+  0 -1px rgba(var(--alt), 0.85);
+  border-radius:15px;
+  padding:4px 10px;
+  margin:0px 2.5px 5px;
+}
+
+.harcabear-nm {
+transform: translateX(-6.5%) translateY(-670%) rotate(-86.5deg);
+  transform-origin:right;
+font-size:42px;
+height:60px; width:100%;
+font-weight:600;
+position:absolute;
+ bottom:0px; right:0px;
+background:
+  -webkit-linear-gradient(rgba(var(--main), 0.5) 5%, rgb(var(--alt)) 45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color:#bbb;
+text-shadow:none;
+z-index:5;
+}
+.harcabear-bl {
+margin:30px 60px 15px;
+  margin-right:20px;
+padding-right:15px;
+height:200px; overflow:auto;
+width:65%;
+text-align:justify;
+}
+.harcabear-wt {
+background:#eee;
+border-radius:15px 0px 0px 15px;
+font-size:13.5px;
+line-height:19px;
+text-align:justify;
+margin-left:30px; margin-right:45px;
+padding:10px 15px; padding-right:45px;
+position:relative;
+  z-index:-1;
+}
+
+.harcabear-rgt {
+background-color:#ddd;
+background-blend-mode:luminosity;
+background-repeat:no-repeat;
+clip-path:polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+margin-left:-60px;
+position:relative;
+width:250px;
+z-index:2;
+}
+
+.harcabear-rgt:before {
+content:var(--unicode);
+font-family: 'harc', 'Starry', 'Honeybee';
+font-size:42px;
+line-height:42px;
+color:rgba(var(--alt), 0.8);
+border-radius:100%;
+display:inline-block;
+position:absolute;
+top:15px; right:15px;
+}
+
+.harcabear-rgt a {
+  font-size:11px;
+  font-weight:900;
+position:absolute;
+text-decoration:none;
+color:rgb(var(--main));
+bottom:10px; right:15px; left:0px;
+text-align:right;
+}
+
+.harcabear-rgt a:before {
+content:'';
+background:#eee;
+display:block;
+width:135px;
+height:1px;
+position:absolute;
+  left:0px; bottom:10px;
+}
+</style>
