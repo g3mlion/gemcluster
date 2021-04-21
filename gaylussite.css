@@ -1,0 +1,218 @@
+/* GAYLUSSITE — plotter
+coded & designed by BOO
+ALL RIGHTS RESERVED 2019 - PRESENT */
+
+#temp { 
+  --main:102, 102, 102;
+  --alt:153, 153, 153;
+  --unicode:'\bb2'; }
+
+
+.gaylussite {
+background:#e7e7e7;
+border:1px solid #ddd;
+color:#494949;
+font-family:'nunito', sans-serif;
+font-size:14.5px;
+line-height:23px;
+margin:20px auto;
+padding:15px;
+overflow:hidden;
+position:relative;
+text-align:left;
+width:615px;
+}
+
+.gaylussite b { color:rgba(var(--main), 0.85); }
+.gaylussite u { border-bottom:2px solid rgba(var(--alt), 0.4);
+text-decoration:none;
+font-weight:bold; }
+
+.gaylussite hr {
+background:#d5d5d5;
+border:0;
+height:1px;
+margin:15px -10px;
+padding:0px; }
+.gaylussite ul {
+margin:3px 10px 5px;
+padding:0px; }
+
+.gaylussite-out {
+background:#ededed;
+border:1px solid #e1e1e1;
+height:520px; width:100%;
+position:relative;
+text-align:center;
+}
+.gaylussite-out:after {
+content:'';
+background:rgba(245, 245, 245, 0.75);
+border-bottom:1px solid #e7e7e7;
+display:block;
+height:49px;
+position:absolute;
+  top:0px; left:0px; right:0px;
+}
+
+.gaylussite-tab {
+ display:inline-block; /* or display:block */
+}
+.gaylussite-tab input[type=radio] { display:none; }
+.gaylussite-tab label {
+display:inline-block;
+opacity:0.5;
+margin:0px 5px;
+margin-top:9px;
+padding:5px 5px 0px;
+position:relative;
+z-index:3;
+}
+
+.gaylussite input[type=radio]:checked ~ label {
+border-bottom:3px solid rgba(200, 200, 200, 0.5);
+opacity:1.0;
+z-index:2;
+}
+
+#boo .gaylussite-in { background-position:right -35px bottom; background-size:contain; }
+#helna .gaylussite-in { background-position:right -30px bottom; }
+#lyonn .gaylussite-in { background-position:right -11px bottom -10px; }
+.gaylussite-in {
+background-color:#ededed;
+background-blend-mode:luminosity;
+background-position:right bottom;
+background-repeat:no-repeat;
+opacity:0.0;
+overflow:hidden;
+position:absolute;
+  top:50px; bottom:0px;
+  left:0px; right:0px;
+z-index:-1;
+transition-duration:0.5s;
+transition-timing-function:ease-in-out;
+}
+
+.gaylussite input[type=radio]:checked ~ label ~ .gaylussite-in {
+opacity:1.0;
+ z-index:1;
+transition-duration:0.6s;
+transition-timing-function:ease-in-out;
+}
+
+input[type=radio]:checked ~ label ~ .gaylussite-in .gayluss-blrb {
+  left:0px;
+transition-duration:0.6s;
+transition-timing-function:ease-in-out;
+}
+
+.gaylussite input[type=radio]:checked ~ label ~ .gaylussite-in .gayluss-btm,.gaylussite input[type=radio]:checked ~ label ~ .gaylussite-in a.lussboo {
+  bottom:0px;
+transition-duration:0.8s;
+transition-timing-function:ease-in-out;
+}
+
+.gayluss-blrb {
+background:rgba(245, 245, 245, 0.5);
+  backdrop-filter:blur(2px);
+  webkit-backdrop-filter:blur(2px);
+color:#6a6a6a;
+font-size:14.5px;
+line-height:23px;
+padding:25px 45px 60px;
+position:absolute;
+  bottom:0px; left:-600px;
+  z-index:1;
+text-align:justify;
+text-shadow: 
+  -1px 0 #f3f3f3,
+  0 1px #f3f3f3,
+  1px 0 #f3f3f3,
+  0 -1px #f3f3f3;
+width:46.5%;
+transition-duration:0.9s;
+transition-timing-function:ease-in-out;
+}
+.gayluss-blrb:before {
+content:var(--unicode);
+background:#0000;
+color:#404040!important;
+font-size:30px;
+opacity:0.35;
+display:inline-block;
+font-family: 'boolovd', 'Starry', 'Honeybee';
+font-weight:400!important;
+position:absolute;
+  top:35px; right:35px;
+}
+.gayluss-blrb a {
+  color:rgba(var(--alt), 0.95);
+}
+
+
+.gayluss-nm {
+border-bottom:3px solid rgba(200, 200, 200, 0.8);
+  background: 
+  -webkit-linear-gradient(rgba(var(--main), 0.15), rgb(var(--alt)) 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:rgba(var(--main), 0.65);
+color:rgba(var(--main), 0.65);
+font-size:26px;
+font-weight:600;
+display:inline-block;
+margin:0px 0px 15px;
+padding:0px 0px 5px;
+text-shadow: none;
+}
+
+.gayluss-btm {
+background:#ccc;
+color:#fafafa;
+font-size:10px;
+font-weight:600;
+min-width:279px;
+padding:15px 25px 10px;
+position:absolute;
+  bottom:-60px; left:35px;
+  z-index:2;
+text-transform:uppercase;
+text-shadow: 
+  -1px 0 #8885,
+  0 1px #8885,
+  1px 0 #8885,
+  0 -1px #8885;
+transition-duration:0.9s;
+transition-timing-function:ease-in-out;
+}
+.gayluss-btm span { margin:0px 2.5; }
+.gayluss-btm a.lussapp {
+background:rgba(var(--main),1.0);
+color:#fafafa;
+font-size:10px;
+font-weight:600;
+padding:15px 16px 10px;
+position:absolute;
+  bottom:0; right:-35px;
+text-decoration:none;
+text-shadow: 
+  -1px 0 rgba(var(--alt),0.75),
+  0 1px rgba(var(--alt),0.75),
+  1px 0 rgba(var(--alt),0.75),
+  0 -1px rgba(var(--alt),0.75);
+}
+
+.gaylussite-in a.lussboo {
+background:rgba(var(--main),0.5);
+color:#fafafa;
+font-size:10px;
+font-weight:600;
+padding:15px 25px 10px;
+position:absolute;
+  bottom:-60; right:0px;
+text-decoration:none;
+text-shadow: 
+  -1px 0 rgba(var(--main),0.75),
+  0 1px rgba(var(--main),0.75),
+  1px 0 rgba(var(--main),0.75),
+  0 -1px rgba(var(--main),0.75);
+}
