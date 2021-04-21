@@ -48,7 +48,7 @@ margin:30px auto;
 overflow:hidden;
 position:relative;
 text-align:center;
-width:380px;
+width:410px;
 z-index:2; }
 .anyolite b { color:rgba(var(--main), 0.95); }
 .anyolite u {
@@ -88,6 +88,7 @@ display:inline-block;
 margin:20px 10px;
 position:relative; }
 
+.anyolite-bse { text-align:left; }
 .anyolite-bse a.user-tagged:before { content:'#';  }
 .anyolite-bse a.user-tagged {
 background:#e5e5e5;
@@ -100,7 +101,7 @@ padding:2px 8px;
 display:inline-block;
 position:relative;
   top:-1px;
-text-transform:uppercase; }
+text-transform:uppercase;}
 
 .anyolite span.anyolite-ds {
 background:#e5e5e5;
