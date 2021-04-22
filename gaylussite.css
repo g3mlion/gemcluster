@@ -184,7 +184,7 @@ text-shadow:
 transition-duration:0.9s;
 transition-timing-function:ease-in-out;
 }
-.gayluss-btm span { margin:0px 2.5; }
+.gayluss-btm span { margin:0px 2.5px; display:inline-block; }
 .gayluss-btm a.lussapp {
 background:rgba(var(--main),1.0);
 color:#fafafa;
