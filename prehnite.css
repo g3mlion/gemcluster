@@ -56,7 +56,7 @@ background-image:
   rgba(var(--alt), 0.8) 25%,
   rgba(var(--main), 0.9),
   rgba(var(--main), 0.75));
-color:#f3f3f3;
+color:#eee;
 font-weight:400;
 content:var(--unicode);
 font-family: 'boolovd', 'Starry';
