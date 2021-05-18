@@ -1,6 +1,6 @@
-/* PREHNITE - post
+/* PREHNITE
 coded & designed by BOO
-ALL RIGHTS RESERVED 2019 - PRESENT */
+ALL RIGHTS RESERVED 2021 - PRESENT */
 
 #temp { 
   --main:102, 102, 102;
@@ -59,7 +59,7 @@ background-image:
 color:#e2e2e2;
 font-weight:400;
 content:var(--unicode);
-font-family: 'boolovd', 'Starry', 'Honeybee';
+font-family: 'boolovd', 'Starry';
 font-size:48px;
 font-weight:400;
 display:inline-block;
@@ -75,12 +75,8 @@ z-index:6; }
 .prehnite-top:after {
 content:'';
 border-style:solid;
-border-color:
-  transparent
-  rgba(var(--main), 0.75) 
-  transparent
-  rgba(var(--main), 0.75);
-border-width: 0px 34px 20px 34px;
+border-color:transparent rgba(var(--main), 0.75) transparent rgba(var(--main), 0.75);
+border-width:0px 34px 20px 34px;
 display:inline-block;
 position:absolute;
   top:83px; left:25px;
