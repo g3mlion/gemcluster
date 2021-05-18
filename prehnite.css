@@ -1,0 +1,118 @@
+/* PREHNITE - post
+coded & designed by BOO
+ALL RIGHTS RESERVED 2019 - PRESENT */
+
+#temp { 
+  --main:102, 102, 102;
+  --alt:153, 153, 153;
+  --unicode:'\bb2'; }
+
+.prehnite {
+background:#efefef;
+border:1px solid #ddd;
+color:#666;
+font-family: nunito, sans-serif;
+line-height:23px;
+margin:45px auto;
+overflow:hidden;
+position:relative;
+text-shadow: 
+  1px 0px #fffd, 
+  0px -1px #fffd, 
+  -1px 0px #fffd, 
+  0px 1px #fffd;
+width:420px; }
+.prehnite b { color:rgba(var(--main), 0.95); }
+.prehnite u {
+border-bottom:2px solid rgba(var(--alt), 0.5);
+font-weight:bold;
+text-decoration:none; }
+.prehnite hr {
+background:#ddd;
+border:0;
+height:1px;
+margin:25px -10px;
+padding:0px; }
+.prehnite ul {
+margin:3px 10px 5px;
+padding:0px; }
+.prehnite span.dice-roll {
+border:0px!important;
+border-bottom:2px solid rgba(var(--alt), 0.55)!important;
+opacity:0.8;
+display:inline-block; }
+
+.prehnite-top {
+border-bottom:1px solid #ddd;
+font-size:13px;
+text-align:right;
+padding:15px 15px 10px;
+position:relative;
+z-index:3; }
+
+.prehnite-top:before {
+background-image:
+  linear-gradient(to bottom,
+  rgba(var(--alt), 0.8) 25%,
+  rgba(var(--main), 0.9),
+  rgba(var(--main), 0.75));
+color:#e2e2e2;
+font-weight:400;
+content:var(--unicode);
+font-family: 'boolovd', 'Starry', 'Honeybee';
+font-size:48px;
+font-weight:400;
+display:inline-block;
+padding:30px 10px;
+text-shadow:
+  1px 0px rgba(var(--alt), 0.6), 
+  0px -1px rgba(var(--alt), 0.6), 
+  -1px 0px rgba(var(--alt), 0.6), 
+  0px 1px rgba(var(--alt), 0.6);
+position:absolute;
+  top:0px; left:25px;
+z-index:6; }
+.prehnite-top:after {
+content:'';
+border-style:solid;
+border-color:
+  transparent
+  rgba(var(--main), 0.75) 
+  transparent
+  rgba(var(--main), 0.75);
+border-width: 0px 34px 20px 34px;
+display:inline-block;
+position:absolute;
+  top:83px; left:25px;
+z-index:6; }
+
+.prehnite-bdy {
+color:#494949; 
+font-size:14.5px; 
+padding:65px 65px 55px;
+padding-left:20px;
+margin-left:45px;
+text-align:justify;
+position:relative;
+z-index:2; }
+
+.prehnite-btm { 
+border-top:1px solid #ddd;
+font-size:13px;
+padding:15px;
+text-align:left;
+position:relative;
+z-index:3; }
+.prehnite-btm a.user-tagged:before { content:'#';  }
+.prehnite-btm a.user-tagged {
+background:#e5e5e5;
+border-radius:10px;
+color:#a0a0a0;
+font-size:10px;
+font-weight:600;
+line-height:17px;
+padding:2px 8px 0px;
+display:inline-block;
+position:relative;
+  top:-1px; 
+text-transform:uppercase; }
