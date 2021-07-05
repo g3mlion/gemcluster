@@ -3,6 +3,12 @@ coded & designed by BOO
 ALL RIGHTS RESERVED 2019 - PRESENT */
 #temp {--main:102, 102, 102; --alt:102, 102, 102;}
 
+#staff {
+--main: 123, 128, 232;
+--alt: 95, 97, 191;
+--unicode:'\bb4';
+}
+
 .asteroid {
 background:#e5e5e5;
 border:1px solid #ddd;
