@@ -63,6 +63,11 @@ text-shadow:
 background:transparent!important;
 padding:0px; margin:0px;
 color:#bbb;
+text-shadow: 
+  1px 0px #fff9, 
+  0px -1px #fff9, 
+  -1px 0px #fff9, 
+  0px 1px #fff9;
 }
 
 .aster {
