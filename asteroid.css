@@ -54,6 +54,7 @@ text-shadow:
   0px 1px #fff9;
 }
 .asteroid span.dice-roll b {
+background:transparent!important;
 color:#bbb;
 }
 
