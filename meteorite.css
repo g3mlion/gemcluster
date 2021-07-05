@@ -117,7 +117,11 @@ font-weight:900;
 display:inline-block;
 margin:10px 0px;
 padding:8px 20px 6px;
-text-shadow:none;
+text-shadow: 
+  1px 0px rgba(var(--alt), 0.45), 
+  0px -1px rgba(var(--alt), 0.45), 
+  -1px 0px rgba(var(--alt), 0.45), 
+  0px 1px rgba(var(--alt), 0.45);
 text-transform:uppercase;
 }
 .ite-top span1 {
