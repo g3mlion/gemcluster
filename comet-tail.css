@@ -304,7 +304,7 @@ padding:10px 6px;
 font-family:'cappuccicons';
 text-shadow:none;
  }
-.ship.npc div { color:#5554!important; }
+.ship.npc div { opacity:0.75!important; }
 
 
 /* TIMELINE TAB */
