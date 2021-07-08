@@ -150,11 +150,11 @@ margin:-8px 5px;
 margin-left:10px;
 z-index:0;
 }
-.asteroid pkmn {
+.asteroid .pokemon {
 margin:-10px -12px;
 position:relative;
 }
-.asteroid pkmn:before {
+.asteroid .pokemon:before {
 content:'';
 background-color:#eee;
 border-radius:100%;
