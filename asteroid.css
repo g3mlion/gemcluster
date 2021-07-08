@@ -76,7 +76,7 @@ display:block;
 position:relative;
 }
 .aster:before {
-background:#eee;
+background:#f0f0f0;
 content:'';
 border-bottom-right-radius:150px;
 position:absolute;
