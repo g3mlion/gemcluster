@@ -142,3 +142,25 @@ font-size:13px;
 padding-right:1px;
 position:relative; top:1px;
 }
+
+.astrd-pkm {
+display:block;
+text-align:right;
+margin:-8px 5px;
+margin-left:10px;
+z-index:0;
+}
+.asteroid pkmn {
+margin:-10px -12px;
+position:relative;
+}
+.asteroid pkmn:before {
+content:'';
+background-color:#eee;
+border-radius:100%;
+width:30px!important;
+height:30px!important;
+position:absolute;
+top:20px; left:15px;
+z-index:-1!important;
+}
