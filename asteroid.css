@@ -143,24 +143,31 @@ padding-right:1px;
 position:relative; top:1px;
 }
 
-.astrd-pkm {
+.asteroid .pkmntm {
+background-color:#e9e9e9;
+border-radius:10px;
 display:block;
-text-align:right;
-margin:-8px 5px;
-margin-left:10px;
-z-index:0;
-}
-.asteroid .pokemon {
-margin:-10px -12px;
+margin:20px -20px -10px;
+padding:10px;
 position:relative;
-}
-.asteroid .pokemon:before {
+text-align:center;
+z-index:2;
+filter:grayscale(30%); }
+.asteroid .pkmntm span { position:relative; }
+.asteroid .pkmntm span:before {
 content:'';
-background-color:#eee;
+background-color:#d9d9d9;
 border-radius:100%;
 width:30px!important;
 height:30px!important;
 position:absolute;
-top:20px; left:15px;
-z-index:-1!important;
-}
+  bottom:10px; left:0px;
+z-index:-1!important; }
+.asteroid .pkmntm .pokemon { margin:-15px -10px 0px!important; }
+.asteroid .pkmntm span b {
+color:#999;
+font-size:11px;
+font-weight:700;
+position:absolute;
+  top:10px; left:0px;
+width:40px; }
