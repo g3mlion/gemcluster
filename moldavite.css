@@ -72,7 +72,7 @@ font-size:11px;
 font-weight:900;
 display:inline-block;
 line-height:130%;
-padding:15px;
+padding:20px;
 position:absolute;
   top:15px; left:15px;
 text-align:center;
@@ -95,7 +95,7 @@ opacity:0.7; }
 
 .moldavite .pkmntm {
 background:#444;
-box-shadow:0px 0px 15px rgba(var(--alt), 0.85);
+box-shadow:0px 0px 8px rgba(var(--alt), 0.5);
 border-radius:20px 0px 0px 20px;
 display:inline-block;
 filter:grayscale(45%);
