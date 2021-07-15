@@ -379,30 +379,6 @@ margin-left:-10px;
 margin-right:5px;
 padding:2px; }
 
-.topic:before {
-background-image:
-  linear-gradient(to bottom,
-  rgba(var(--alt), 0.8) 25%,
-  rgba(var(--main), 0.9),
-  rgba(var(--main), 0.75));
-color:#eaeaea;
-content:'\eca0';
-border-radius:0px 0px 5px 5px;
-font-family: 'cappuccicons';
-font-weight:400;
-font-size:22px;
-font-weight:400;
-display:inline-block;
-padding:15px 10px 20px;
-text-shadow:
-  1px 0px rgba(var(--alt), 0.6), 
-  0px -1px rgba(var(--alt), 0.6), 
-  -1px 0px rgba(var(--alt), 0.6), 
-  0px 1px rgba(var(--alt), 0.6);
-position:absolute;
-  top:-1px; right:15px;
-z-index:6; }
-
 .topic.fin { color:#4449; }
 .topic.fin a { color:#3337; }
 .topic.fin b { color:#4447; }
