@@ -1,0 +1,123 @@
+/* ANATASE
+coded & designed by BOO
+ALL RIGHTS RESERVED 2019 - PRESENT */
+
+#staff {
+--main: 123, 128, 232;
+--alt: 95, 97, 191; }
+
+#temp { 
+--main:180, 180, 180;
+--alt:210, 210, 210; }
+
+.anatase {
+width:425px;
+background:#e9e9e9;
+border:1px solid #ddd;
+color:#666;
+font-family:nunito;
+font-size:15px;
+line-height:24px;
+margin:30px auto;
+text-align:right;
+padding:10px;
+  }
+.anatase b { 
+color:rgba(var(--main));
+font-weight:700; }
+.anatase u { 
+border-bottom:2px solid rgba(var(--alt));
+text-decoration:none;
+padding:0px 2px;
+font-weight:700; }
+
+.anatase-in {
+background:#f2f2f2;
+border:1px solid #ddd;
+padding:20px;
+position:relative;
+  }
+.anatase-in:after {
+content:'';
+background: 
+-webkit-linear-gradient(left, rgba(var(--main)), rgba(var(--alt)));
+bottom:0px; left:0px; right:0px;
+height:5px;
+position:absolute;
+  }
+.ana-body {
+padding:20px 30px;
+padding-left:35px;
+text-align:left; }
+
+.anatase .cp {
+padding-bottom:30px;
+display:block;
+position:relative;
+text-align:right;
+padding-top:45px;
+  }
+
+.anatase .cp span {
+position:relative;
+color:#777;
+background:#e9e9e9;
+padding:10px 14px 10px 20px;
+border-radius:60px 0px 0px 60px;
+text-transform:uppercase;
+font-size:10px;
+font-weight:900;
+margin-right:-50px;
+  }
+
+.anatase .cp:before {
+ background: /* thanks pan! */
+  -webkit-linear-gradient(bottom right, rgba(var(--main)), rgba(var(--alt)));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+color:var(--main);
+font-family:'cappuccicons';
+font-size:42px;
+line-height:110%;
+width:50px;
+display:block;
+position:absolute;
+right:-25px; top:-20px;
+  }
+
+.ada-date:before {
+content:'';
+width:70px; height:5px;
+background:#e2e2e2;
+margin:0px 10px 0px -30px;
+display:inline-block;
+  }
+.ada-date {
+color:var(--main);
+font-size:8px;
+font-weight:bold;
+text-transform:uppercase;
+margin-bottom:30px;
+  }
+
+.anatase hr {
+background:#e5e5e5;
+border:0px;
+height:1px;
+margin:20px;
+  }
+.anatase-in a.user-tagged {
+color:#777;
+font-size:11px;
+font-weight:700;
+text-transform:uppercase;
+text-decoration:none;
+text-align:right; }
+.anatase-in a.user-tagged:before {
+color:rgba(var(--main));
+content:'#';
+font-size:13px;
+font-weight:700;
+position:relative;
+top:1px;
+display:inline-block; }
