@@ -111,7 +111,7 @@ background:linear-gradient(to bottom,
   rgba(var(--main), 0.65),
   rgba(var(--alt), 0.75) 85%);
 border-radius:80px;
-color:#eeeb;
+color:#eeed;
 font-size:11px;
 font-weight:900;
 display:inline-block;
