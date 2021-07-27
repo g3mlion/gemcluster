@@ -100,7 +100,7 @@ padding:20px;
 text-align:left;
 position:relative;
 z-index:3; }
-.prehnite-btm a.user-tagged:before { content:'#';  }
+
 .prehnite-btm a.user-tagged {
 background:#e5e5e5;
 border-radius:10px;
