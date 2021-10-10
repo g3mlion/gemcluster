@@ -118,7 +118,7 @@ padding:0px; }
 border-left:1px solid #ddd;
 height:100%;
 position:relative;
-  top:-10px; left:48px; }
+  top:-18px; left:48px; }
 
 .scoro-tb {
  display:block; /* or display:block */
@@ -133,7 +133,7 @@ height:25px;
 margin:0px;
 padding:10px 5px;
 position:absolute;
-  bottom:30px; left:-26px;
+  bottom:10px; left:-26px;
 z-index:0; }
 
 .scorodite input[type=radio]:checked ~ label {
@@ -182,8 +182,7 @@ border-bottom:1px solid #ddd;
 font-size:33px;
 font-family:nunito;
 font-weight:700;
-line-height:100%;
-padding:0px 0px 15px 45px;
+padding:5px 0px 10px 45px;
 text-shadow:none;
 }
 .scrdite-bd {
