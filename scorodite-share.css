@@ -118,7 +118,7 @@ padding:0px; }
 border-left:1px solid #ddd;
 height:100%;
 position:relative;
-  left:48px; }
+  top:-10px; left:48px; }
 
 .scoro-tb {
  display:block; /* or display:block */
