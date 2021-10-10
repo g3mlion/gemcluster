@@ -22,8 +22,7 @@ text-shadow:
   0px -1px #fffd, 
   -1px 0px #fffd, 
   0px 1px #fffd; }
-  
-  
+
 sdrbbn:before {
 background-image:
   linear-gradient(to bottom,
@@ -33,11 +32,14 @@ background-image:
 color:#e2e2e2;
 font-weight:400;
 content:var(--unicode);
-font-family: 'boolovd', 'Starry';
+font-family: 'boolovd', 'Starry', 'cappuccicons';
 font-size:48px;
 font-weight:400;
 display:inline-block;
-padding:15px 10px 20px;
+height:50px;
+max-height:50px;
+padding:5px 15px 0px;
+text-align:center;
 text-shadow:
   1px 0px rgba(var(--alt), 0.6), 
   0px -1px rgba(var(--alt), 0.6), 
@@ -57,7 +59,7 @@ border-color:
 border-width: 0px 34px 20px 34px;
 display:inline-block;
 position:absolute;
-  top:83px; left:15px;
+  top:55px; left:15px;
 z-index:6; }
 
 .scorodite ::-webkit-scrollbar { width:0px; background:transparent; }
