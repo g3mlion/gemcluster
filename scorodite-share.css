@@ -1,21 +1,21 @@
+#boo2 { 
+  --main:143, 179, 201;
+  --alt:196, 151, 176; }
+
 /* SCORODITE - shareable
 coded & designed by BOO
 ALL RIGHTS RESERVED 2019 - PRESENT */
-
-#temp { 
-  --main:102, 102, 102;
-  --alt:153, 153, 153;
-  --unicode:'\bb2'; }
   
 .scorodite {
 background:#efefef;
 border:1px solid #ddd;
 color:#666;
 font-family: nunito, sans-serif;
-font-size: 14.5px; 
-height:450px; width:620px;
+font-size: 14.5px!important; 
+height:450px!important; width:620px!important;
 line-height:23px;
 margin:35px auto;
+overflow:hidden;
 position:relative;
 text-shadow: 
   1px 0px #fffd, 
@@ -33,12 +33,13 @@ color:#e2e2e2;
 font-weight:400;
 content:var(--unicode);
 font-family: 'boolovd', 'Starry', 'cappuccicons';
-font-size:48px;
+font-size:38px;
 font-weight:400;
 display:inline-block;
-height:50px;
-max-height:50px;
-padding:5px 15px 0px;
+line-height:100%;
+height:55px; width:38.5px;
+max-height:55px; max-width:38.5px;
+padding:10px 15px 0px;
 text-align:center;
 text-shadow:
   1px 0px rgba(var(--alt), 0.6), 
@@ -59,7 +60,7 @@ border-color:
 border-width: 0px 34px 20px 34px;
 display:inline-block;
 position:absolute;
-  top:55px; left:15px;
+  top:65px; left:15px;
 z-index:6; }
 
 .scorodite ::-webkit-scrollbar { width:0px; background:transparent; }
@@ -132,7 +133,7 @@ height:25px;
 margin:0px;
 padding:10px 5px;
 position:absolute;
-  bottom:10px; left:-26px;
+  bottom:30px; left:-26px;
 z-index:0; }
 
 .scorodite input[type=radio]:checked ~ label {
@@ -180,8 +181,9 @@ background-size:100%;
 border-bottom:1px solid #ddd;
 font-size:33px;
 font-family:nunito;
-font-weight:600;
-padding:15px 0px 15px 45px;
+font-weight:700;
+line-height:100%;
+padding:0px 0px 15px 45px;
 text-shadow:none;
 }
 .scrdite-bd {
