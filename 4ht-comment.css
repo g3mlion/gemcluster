@@ -1,0 +1,139 @@
+/* Four House Tournament - Commentator Post
+coded & designed by BOO for use on ALOHOMORA ONLY
+ALL RIGHTS RESERVED 2019 - PRESENT */
+
+.fht-comment {
+border:1px solid #ddd;
+border-bottom:3px solid #e2e2e2;
+border-radius:3px;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+font-size: 15px;
+font-weight:400;
+line-height:24px;
+color:#555;
+margin:45px auto;
+overflow:hidden;
+position:relative;
+text-align:left;
+width:400px;
+}
+
+.fht-cmmt-top {
+background:#eee;
+border-bottom:1px solid #ddd;
+padding:40px;
+position:relative;
+}
+.fht-cmmt-top:before {
+  content:'';
+width:0px; height:0px;
+border-left:13px solid transparent;
+border-right:13px solid transparent;
+border-top:20px solid #eee;
+position:absolute;
+  bottom:-20px; left:95px;
+z-index:4;
+}
+.fht-cmmt-top:after {
+  content:'';
+width:0px; height:0px;
+border-left:14px solid transparent;
+border-right:14px solid transparent;
+border-top:21px solid #ddd;
+position:absolute;
+  bottom:-22px; left:94px;
+z-index:3;
+}
+
+.fht-cmmt-btm {
+font-size:12px;
+line-height:100%;
+display:flex;
+  align-items:center;
+padding:20px 15px;
+position:relative;
+}
+.fht-cmmt-btm div {
+padding:20px 0px;
+margin-right:20px;
+}
+
+.fht-cmmt-btm div:before {
+content:var(--unicode);
+background: -webkit-linear-gradient(var(--group1), var(--group2));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family:'starry';
+font-size:52px;
+border:5px solid #f5f5f5;
+border-radius:100%;
+padding:5px;
+}
+.fht-cmmt-btm span {
+margin-left:5px;
+text-align:right;
+}
+
+#gryffindor, #g-3  {
+--unicode:'\a105';
+}
+
+#hufflepuff, #g-6 {
+--unicode:'\a106';
+}
+
+#ravenclaw, #g-7 {
+--unicode:'\a107';
+}
+
+#slytherin, #g-8 {
+--unicode:'\a108';
+}
+
+#faculty, #g-9 {
+--unicode:'\a104';
+}
+
+#civilian, #g-10 {
+--unicode:'\a109';
+}
+
+#interim, #g-11 {
+--unicode:'\a110';
+}
+
+#staff, #g-4, #g-12 {
+--unicode:'\a110';
+}
+
+
+.fht-comment b { 
+background: -webkit-linear-gradient(var(--group1), var(--group2));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; }
+.fht-comment u { 
+background: -webkit-linear-gradient(var(--group1), var(--group2));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+border-bottom:2px solid #ddd;
+font-weight:600;
+text-decoration:none; }
+.fht-comment i { 
+background: -webkit-linear-gradient(var(--group1), var(--group2));
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-decoration:none; }
+
+
+.fht-comment a { 
+background: -webkit-linear-gradient(bottom right, var(--group1), var(--group2));
+border-radius:5px;
+color:#eeee;
+font-size:9px;
+display:block;
+margin:5px;
+padding:5px 8px;
+font-weight:600; 
+text-transform:uppercase;
+}
