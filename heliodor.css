@@ -1,0 +1,136 @@
+/* HELIODOR - post
+coded & designed by BOO
+ALL RIGHTS RESERVED 2019 - PRESENT */
+
+.heliodor {
+background:#eee;
+border:1px solid #dadada;
+font-size: 15px;
+font-weight:400;
+line-height:24px;
+color:#666;
+margin:45px auto;
+overflow:hidden;
+position:relative;
+text-align:left;
+text-shadow: 
+  -1px 0 #fffd,
+  0 1px #fffd,
+  1px 0 #fffd, 
+  0 -1px #fffd;
+width:465px;
+}
+.heliodor:before {
+background:#eaeaea;
+content:'';
+position:absolute;
+  top:0px; left:0px; bottom:0px;
+width:25%;
+z-index:1;
+}
+
+.heliodor-dst {
+border-top:1px solid rgba(var(--main),0.45);
+border-left:1px solid rgba(var(--alt),0.45);
+display:block;
+color:#6666;
+font-size:12px;
+font-weight:700;
+line-height:15px;
+margin:25px 0px 0px 25px;
+padding:25px 25px 35px;
+position:relative;
+text-shadow:none;
+z-index:6;
+}
+.heliodor-dst u { opacity:0.75; font-size:15px; }
+
+.heliodor-in {
+padding:15px 75px 50px;
+position:relative;
+z-index:6;
+}
+
+.heliodor-btm {
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+border-top:1px solid #e2e2e2;
+color:#777;
+font-size:13px;
+line-height:16px;
+margin-left:65px;
+padding:15px;
+position:relative;
+text-align:right;
+z-index:6;
+}
+.heliodor-btm div {
+margin-right:15px;
+}
+
+.heliodor-btm:after {
+background:
+  -webkit-linear-gradient(rgba(var(--main),0.25) 5%, rgba(var(--alt),0.8));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+line-height:110%;
+content:var(--unicode);
+font-family:'boolovd';
+font-size:36px;
+font-weight:400;
+padding:10px;
+line-height:100%;
+text-shadow:none;
+}
+
+
+.heliodor a.user-tagged { 
+color:#9998;
+font-size:11px;
+font-weight:700;
+text-decoration:none;
+text-shadow:none;
+text-transform:uppercase;
+}
+
+.heliodor b { 
+color:rgba(var(--main), 0.85);
+font-weight:700; }
+
+.heliodor u { 
+background:
+  -webkit-linear-gradient(rgba(var(--main)), rgba(var(--alt)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+border-bottom:2px solid #ddd;
+text-shadow:none;
+font-weight:700;
+text-decoration:none;
+text-shadow:none; }
+
+.heliodor i { 
+background:
+  -webkit-linear-gradient(rgba(var(--main)), rgba(var(--alt)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+text-decoration:none;
+text-shadow:none; }
+
+.heliodor span.dice-roll {
+border:0px!important;
+color:#6668;
+font-size:13px;
+display:block;
+margin-top:35px;
+margin-bottom:-15px;
+text-align:right;
+text-shadow:none;
+}
+.heliodor span.dice-roll b {
+background:
+  -webkit-linear-gradient(rgba(var(--main),0.6), rgba(var(--alt),0.95));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+border-bottom:2px solid #ddd;
+text-decoration:none; }
