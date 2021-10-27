@@ -21,7 +21,7 @@
   --main: 121, 189, 171;
   --alt: 86, 156, 148;
   --unicode:'\bb11'; }
-#finch { /* MALACHI FINCH */
+#mlchi { /* MALACHI FINCH */
   --main:156, 173, 218;
   --alt:98, 145, 204;
   --unicode:'\bb18'; }
@@ -29,11 +29,11 @@
   --main:219, 163, 117;
   --alt:222, 121, 136;
   --unicode:'\bb8'; }
-#nell { /* NELL LASTNAME */
-  --main:222, 159, 179;
-  --alt:217, 95, 115;
-  --unicode:'\bb9'; }
 #sage { /* SAGE ROYAL */
   --main:136, 105, 151;
   --alt:101, 86, 145;
   --unicode:'\bb6'; }
+#wnfrd { /* WINIFRED PEARL */
+  --main:222, 159, 179;
+  --alt:217, 95, 115;
+  --unicode:'\bb9'; }
