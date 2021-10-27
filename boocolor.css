@@ -21,14 +21,14 @@
   --main: 121, 189, 171;
   --alt: 86, 156, 148;
   --unicode:'\bb11'; }
-#mlchi { /* MALACHI FINCH */
-  --main:156, 173, 218;
-  --alt:98, 145, 204;
-  --unicode:'\bb18'; }
 #lyonn { /* LYONNE DARLINGTON */
   --main:219, 163, 117;
   --alt:222, 121, 136;
   --unicode:'\bb8'; }
+#mlchi { /* MALACHI FINCH */
+  --main:156, 173, 218;
+  --alt:98, 145, 204;
+  --unicode:'\bb18'; }
 #sage { /* SAGE ROYAL */
   --main:136, 105, 151;
   --alt:101, 86, 145;
