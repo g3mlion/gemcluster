@@ -1,0 +1,170 @@
+/* LOVELY LOCKS - post
+coded & designed by BOO for VIV'S PERSONAL USE
+ALL RIGHTS RESERVED 2019 - PRESENT */
+
+#aurora { --main:145, 130, 196; --alt:228, 146, 183; --unicode:'\fd'; } 
+#ben { --main:123, 91, 154; --alt:217, 163, 119; --unicode:'\fb'; }
+#euli { --main:82, 18, 98; --alt:228, 97, 123; --unicode:'\4a'; }
+#kaguya { --main:222, 127, 134; --alt:117, 188, 183; --unicode:'\ff'; }
+#nia { --main:229, 145, 154; --alt:113, 120, 188; --unicode:'\fe'; }
+#odette { --main:110, 115, 174; --alt:169, 110, 174; --unicode:'\fa' }
+#rev { --main:218, 162, 74; --alt:221, 132, 126; --unicode:'\3a'; }
+
+
+.lovely-locks {
+background:#f1f1f1;
+border:1px solid #e2e2e2;
+font-size:15px;
+font-weight:400;
+line-height:24px;
+color:#666;
+margin:25px auto;
+overflow:hidden;
+position:relative;
+text-align:left;
+text-shadow: 
+  -1px 0 #fffa,
+  0 1px #fffa,
+  1px 0 #fffa, 
+  0 -1px #fffa;
+width:465px; }
+
+.lovely-locks:before {
+background:
+  -webkit-linear-gradient(125deg, rgba(var(--main),0.55), rgba(var(--alt),0.75));
+content:'';
+height:50px;
+position:absolute;
+  top:0px; left:136px; right:0px;
+z-index:2;
+}
+.lovely-locks:after {
+background-image: 
+  repeating-linear-gradient(-45deg, #eee, #eee 2px, transparent 2px, transparent 12px);
+background-size:100%;
+content:'';
+height:75%; width:35%;
+position:absolute;
+  top:0px; right:0px;
+z-index:1;
+}
+
+.lvlylks-dst {
+background:#eee;
+border:1px solid #e5e5e5;
+display:inline-block;
+color:#6666;
+font-size:13px;
+font-weight:700;
+line-height:15px;
+margin:25px;
+padding:25px;
+position:relative;
+overflow:hidden;
+text-align:center;
+text-shadow:none;
+z-index:6;
+}
+.lvlylks-dst u { opacity:0.75; font-size:16px; }
+
+.lvlylks-dst:after {
+border-radius:15px;
+color:#fff9;
+content:var(--unicode);
+font-family:'fluffy';
+font-size:72px;
+font-weight:400;
+line-height:100%;
+margin:5px 10px;
+position:absolute;
+  top:0px; right:0px;
+z-index:-1;
+text-shadow:none;
+}
+
+
+.lovely-locked {
+padding:0px 75px 25px;
+position:relative;
+z-index:6;
+}
+
+.lvlylks-btm {
+background:#ebebebA6;
+color:#777;
+display:block;
+font-size:13px;
+line-height:18px;
+margin:10px;
+padding:15px 20px;
+position:relative;
+z-index:6;
+}
+
+
+.lvlylks-btm a { 
+color:#9999;
+font-size:11px;
+font-weight:700;
+text-decoration:none;
+text-shadow:none;
+text-shadow: 
+  -1px 0 #fff5,
+  0 1px #fff5,
+  1px 0 #fff5, 
+  0 -1px #fff5;
+text-transform:uppercase;
+}
+
+.lvlylks-btm a.user-tagged { 
+color:rgba(var(--alt));
+font-size:11px;
+font-weight:700;
+text-decoration:none;
+text-transform:uppercase;
+}
+
+.lovely-locks b { 
+color:rgba(var(--main), 0.85);
+font-weight:700; }
+
+.lovely-locks u { 
+color:rgba(var(--main),0.85);
+border-bottom:2px solid #ddd;
+font-weight:700;
+text-decoration:none; }
+
+.lovely-locks i { 
+background:
+  -webkit-linear-gradient(rgba(var(--main),0.7), rgba(var(--alt)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+text-decoration:none;
+text-shadow:none; }
+
+
+.lovely-locks span.dice-roll {
+border:1px solid #e5e5e5!important;
+padding:7px 15px;
+color:#6666;
+font-size:13px;
+display:inline-block;
+margin-top:35px;
+margin-bottom:-15px;
+}
+
+.lovely-locks span.dice-roll b {
+background:
+  -webkit-linear-gradient(bottom left, rgba(var(--main),0.65), rgba(var(--alt),0.65));
+color:#eee;
+font-size:11px;
+margin:-5px 10px -5px -15px;
+padding:12px;
+position:relative;
+text-decoration:none;
+text-shadow: 
+  -1px 0 rgba(var(--main), 0.4),
+  0 1px rgba(var(--main), 0.4),
+  1px 0 rgba(var(--main), 0.4), 
+  0 -1px rgba(var(--main), 0.4);
+text-transform:uppercase;  }
