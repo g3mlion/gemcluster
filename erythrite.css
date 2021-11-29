@@ -1,0 +1,250 @@
+/* ERYTHRITE — plotter code
+coded & designed by BOO
+ALL RIGHTS RESERVED 2019 - PRESENT */
+
+.erythrite {
+background:#eee;
+border:1px solid #dadada;
+font-family:nunito;
+font-size:15px;
+font-weight:400;
+line-height:24px;
+color:#666;
+margin:15px auto;
+height:570px; width:620px;
+overflow:hidden;
+position:relative;
+text-align:left;
+text-shadow: 
+  -1px 0 #fff9,
+  0 1px #fff9,
+  1px 0 #fff9, 
+  0 -1px #fff9;
+}
+
+.erythrite-in {
+height:570px; width:620px;
+position:relative;
+}
+
+.erthrt {
+ display:block; /* or display:block */
+}
+.erthrt input[type=radio] { display:none; }
+.erthrt label {
+border-bottom:2px solid transparent;
+font-weight:900;
+display:block;
+margin:0px 20px;
+padding:15px 0px 5px;
+position:relative;
+  top:30px;
+text-align:center;
+width:20px;
+z-index:6;
+}
+input[type=radio]:checked ~ label {
+color:rgb(var(--main));
+border-bottom:2px solid #ddd;
+z-index:6;
+}
+
+.erthrt-cntnr {
+position:absolute;
+  top:0px; bottom:0px;
+  left:0px; right:0px;
+z-index:-1;
+opacity:0;
+transition:all ease-in-out 0.7s;
+}
+input[type=radio]:checked ~ label ~ .erthrt-cntnr {
+z-index:2;
+opacity:1;
+transition:all ease-in-out 0.7s;
+}
+
+.erthrt-lft {
+height:71.3%; width:60%;
+position:absolute;
+  top:0px left:0px;
+z-index:2;
+}
+.erthrt-lft:before {
+background:rgba(var(--alt), 0.45);
+content:'';
+height:90%; width:1px;
+position:absolute;
+  top:0px; left:60px;
+}
+
+.erthrt-h1 {
+background:
+  -webkit-linear-gradient(rgba(var(--main),0.45), rgba(var(--alt), 0.8));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+color:#fafafa;
+font-size:36px;
+font-weight:700;
+line-height:100%;
+padding:20px 20px 0px;
+position:relative;
+  left:65px;
+text-shadow:none;
+}
+
+.erthrt-blrb {
+padding:15px 20px;
+position:relative;
+  left:65px;
+width:76%;
+}
+
+.erthrt-rgt {
+background-color:#e7e7e7;
+height:71.3%; width:35%;
+position:absolute;
+  top:0px; right:-350px;
+z-index:1;
+transition:all ease-in-out 0.6s 0.4s;
+}
+
+input[type=radio]:checked ~ label ~ .erthrt-cntnr .erthrt-rgt {
+right:0px!important;
+transition:all ease-in-out 0.6s 0.1s;
+}
+
+.erthrt-hvr {
+background-repeat:no-repeat;
+filter:grayscale(100%);
+height:380px; width:400px;
+opacity:0.9;
+position:absolute;
+  bottom:0px; left:-80px;
+}
+
+.erthrt-btm {
+background-color:rgba(var(--alt), 0.4);
+color:#eee;
+display:flex;
+font-size:18px;
+font-style:italic;
+font-weight:400!important;
+height:20%;
+overflow:hidden;
+padding:25px;
+position:absolute;
+  bottom:0px; left:0; right:0px;
+text-align:left;
+text-shadow: 
+  -1px 0 rgba(var(--alt),0.3),
+  0 1px rgba(var(--alt),0.3),
+  1px 0 rgba(var(--alt),0.3), 
+  0 -1px rgba(var(--alt),0.3);
+}
+.erthrt-btm:before {
+color:rgba(var(--main), 0.15);
+content:var(--unicode);
+font-family:'boolovd';
+font-size:112px;
+font-style:normal;
+margin:45px 0px 0px;
+position:absolute;
+  left:-15px;
+text-shadow:none;
+z-index:-1;
+}
+.erthrt-btm span { padding:3px 0px 0px 15px;
+position:relative;
+  bottom:-220px;
+transition:all ease-in-out 0.4s 0.3s; }
+
+input[type=radio]:checked ~ label ~ .erthrt-cntnr .erthrt-btm span {
+bottom:0px!important;
+transition:all ease-in-out 0.6s 0.2s;
+}
+
+.erthrt-btm a { 
+background:
+  -webkit-linear-gradient(rgba(var(--main)), rgba(var(--alt)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+font-weight:700;
+margin-right:5px;
+position:relative;
+  top:1px;
+text-decoration:none;
+text-shadow:none;
+text-transform:uppercase;
+}
+.erthrt-wnt a { font-size:12px; margin:0px; }
+.erthrt-btm u { 
+border-bottom:2px solid rgba(var(--alt), 0.55);
+display:inline-block;
+line-height:28px;
+margin-right:5px;
+padding:0px 2px;
+text-shadow:none;
+font-weight:400;
+text-decoration:none;
+text-shadow: 
+  -1px 0 rgba(var(--alt),0.3),
+  0 1px rgba(var(--alt),0.3),
+  1px 0 rgba(var(--alt),0.3), 
+  0 -1px rgba(var(--alt),0.3);
+}
+
+.erthrt-wnt {
+  flex-basis:220px;
+background:rgba(var(--main), 0.3);
+color:#eee;
+font-size:13.5px;
+font-style:normal;
+line-height:21px;
+margin-top:-25px; margin-left:15px;
+padding:10px 25px 30px;
+position:relative;
+text-align:justify;
+width:220px; min-width:220px;
+}
+.erthrt-wnt:before {
+background:rgba(var(--alt), 0.3);
+content:'';
+height:1px;
+position:absolute;
+  bottom:15px; left:15px; right:15px;
+}
+
+.erythrite a.user-tagged { 
+background:
+  -webkit-linear-gradient(rgba(var(--main)), rgba(var(--alt)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+font-size:12px;
+font-weight:700;
+text-decoration:none;
+text-shadow:none;
+text-transform:uppercase;
+}
+
+.erythrite b { 
+color:rgba(var(--main), 0.9);
+font-weight:700; }
+
+.erthrt-blrb u { 
+background:
+  -webkit-linear-gradient(rgba(var(--main),0.9), rgba(var(--alt),0.8));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+border-bottom:2px solid #ddd;
+text-shadow:none;
+font-weight:700;
+text-decoration:none;
+text-shadow:none; }
+
+.erythrite i { 
+background:
+  -webkit-linear-gradient(rgba(var(--main)), rgba(var(--alt)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+text-decoration:none;
+text-shadow:none; }
