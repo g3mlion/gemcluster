@@ -9,29 +9,25 @@
   --alt:140, 106, 148;
   --unicode:'\bb4'; }
 
-#breez { /* IBREEZ MARANGOZ */
-  --main:157, 94, 143;
-  --alt:100, 66, 133;
-  --unicode:'\bb10'; }
 #colt { /* COLTON THILE */
   --main:162, 75, 107;
   --alt:117, 34, 76;
   --unicode:'\bb7'; }
 #evrly { /* EVERLY TALMADGE */
-  --main: 121, 189, 171;
-  --alt: 86, 156, 148;
+  --main: 133, 113, 172;
+  --alt: 79, 74, 122;
   --unicode:'\bb11'; }
 #lyonn { /* LYONNE DARLINGTON */
   --main:222, 159, 179;
   --alt:217, 95, 115;
   --unicode:'\bb8'; }
 #mlchi { /* MALACHI FINCH */
-  --main:156, 173, 218;
-  --alt:98, 145, 204;
+  --main:110, 180, 169;
+  --alt:95, 150, 154;
   --unicode:'\bb18'; }
 #sage { /* SAGE ROYAL */
-  --main:136, 105, 151;
-  --alt:101, 86, 145;
+  --main:219, 142, 115;
+  --alt:207, 113, 80;
   --unicode:'\bb6'; }
 #wnfrd { /* WINIFRED PEARL */
   --main:145, 193, 151;
