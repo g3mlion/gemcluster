@@ -104,3 +104,11 @@ padding:10px 18.5px;
 line-height:19px;
 width:30px; }
 .hauyne-ds u { border:0px; }
+
+.hauyne span.dice-roll {
+border:0px!important;
+display:inline-block;
+}
+.hauyne span.dice-roll b {
+border-bottom:2px solid #ddd;
+}
