@@ -39,7 +39,7 @@ padding:4px;
 position:relative;
 z-index:5;
 }
-input[type=radio]:checked ~ label {
+.llanite input[type=radio]:checked ~ label {
 border:3px solid;
 }
 
@@ -52,7 +52,7 @@ opacity:0.0;
 overflow:hidden;
 transition:all ease-in-out 0.4s;
 }
-input[type=radio]:checked ~ label ~ .llanite-cntnt {
+.llanite input[type=radio]:checked ~ label ~ .llanite-cntnt {
  z-index:1;
 opacity:1;
 transition:all ease-in-out 0.6s;
