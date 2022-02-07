@@ -2,10 +2,6 @@
 coded & designed by BOO
 ALL RIGHTS RESERVED 2022 - PRESENT */
 
-#temp { 
-  --main:102, 102, 102;
-  --alt:153, 153, 153; }
-
 .llanite {
 background:#e5e5e5;
 border:1px solid #ddd;
@@ -104,6 +100,7 @@ z-index:3;
 .llnt-mp a {
 color:#eee!important;
 border-bottom:2px solid rgb(var(--main));
+text-decoration:none;
 padding:0px 2px;
 }
 
@@ -153,7 +150,7 @@ text-decoration:none;
 text-shadow:none; }
 
 .llnt-brgt {
-background:#e5e5e5;
+background:#e4e4e4e4;
 clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
 color:#555;
 padding:55px 25px 25px;
@@ -166,6 +163,16 @@ text-shadow:
   1px 0 #fff7, 
   0 -1px #fff7;
 }
+.llnt-brgt a { 
+background:
+  -webkit-linear-gradient(rgba(var(--main)), rgba(var(--alt)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+border-bottom:2px solid #d5d5d5;
+text-shadow:none;
+font-weight:700;
+text-decoration:none;
+text-shadow:none; }
 .llnt-brgt b { 
 color:rgba(var(--alt), 0.85);
 font-weight:900; }
