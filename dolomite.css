@@ -1,0 +1,127 @@
+/* DOLOMITE - post
+coded & designed by BOO
+ALL RIGHTS RESERVED 2022 - PRESENT */
+
+.dolomite {
+background:#f5f5f5;
+border:1px solid #e2e2e2;
+color:#666;
+font-size:15px;
+line-height:25px;
+margin:45px auto;
+text-align:left;
+margin:45px auto;
+overflow:hidden;
+position:relative;
+text-align:left;
+width:450px;
+}
+
+.dolomite-top {
+background:rgba(var(--main),0.1);
+padding:100px 65px 65px;
+position:relative;
+text-shadow: 
+  -1px 0 #fff6,
+  0 1px #fff6,
+  1px 0 #fff6, 
+  0 -1px #fff6;
+}
+
+.dolomite-top:before {
+background:rgba(var(--alt),0.2);
+color:#fffd;
+content:var(--unicode);
+font-family:'starry','boolovd';
+font-size:42px;
+padding:20px 10px 20px;
+position:absolute;
+  top:0px; right:55px;
+  z-index:1;
+}
+.dolomite-top:after {
+background:
+  -webkit-linear-gradient(rgba(var(--main),0.8), rgba(var(--alt)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+content:var(--unicode);
+font-family:'starry','boolovd';
+font-size:42px;
+padding:20px 10px 20px;
+position:absolute;
+  top:0px; right:55px;
+text-shadow:none;
+  z-index:2;
+}
+
+.dolomite-btm {
+color:#666d;
+margin:25px 35px;
+position:relative;
+}
+.dolomite-dst {
+font-size:12px;
+font-weight:700;
+border-top:2px solid #ddd7;
+margin:5px -10px -10px;
+padding:5px 5px 0px;
+text-align:right;
+opacity:0.75;
+}
+.dolomite-dst b { font-weight:900!important; }
+
+.dolomite a.user-tagged { 
+color:#9998;
+font-size:11px;
+font-weight:700;
+text-decoration:none;
+text-shadow:none;
+text-transform:uppercase;
+}
+
+.dolomite b { 
+background:
+  -webkit-linear-gradient(rgba(var(--main), 0.85), rgba(var(--alt), 0.85));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+font-weight:700;
+text-decoration:none;
+text-shadow:none; }
+
+.dolomite u { 
+background:
+  -webkit-linear-gradient(rgba(var(--main)), rgba(var(--alt)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+border-bottom:2px solid #fffd;
+text-shadow:none;
+font-weight:700;
+text-decoration:none;
+text-shadow:none; }
+
+.dolomite i { 
+background:
+  -webkit-linear-gradient(rgba(var(--alt)), rgba(var(--main)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+text-decoration:none;
+text-shadow:none; }
+
+.dolomite span.dice-roll {
+background:rgba(var(--main), 0.2);
+border:0px!important;
+font-size:12px;
+font-weight:700;
+display:inline-block;
+margin-top:4.5px;
+padding:5px 10px 3px;
+text-align:right;
+text-shadow:none;
+text-transform:uppercase;
+}
+.dolomite span.dice-roll b {
+background:
+  -webkit-linear-gradient(rgba(var(--main)), rgba(var(--alt)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+text-decoration:none; }
