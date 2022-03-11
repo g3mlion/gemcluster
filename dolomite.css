@@ -33,6 +33,7 @@ background:rgba(var(--alt),0.2);
 color:#fffd;
 content:var(--unicode);
 font-family:'starry','boolovd';
+  -webkit-font-smoothing: antialiased;
 font-size:42px;
 padding:20px 10px 20px;
 position:absolute;
@@ -46,6 +47,7 @@ background:
   -webkit-text-fill-color: transparent;
 content:var(--unicode);
 font-family:'starry','boolovd';
+  -webkit-font-smoothing: antialiased;
 font-size:42px;
 padding:20px 10px 20px;
 position:absolute;
