@@ -89,12 +89,16 @@ position:absolute;
 
 .cuprite a.user-tagged { 
 background:rgba(var(--alt), 0.15);
-color:rgba(var(--alt),0.65);
+color:rgba(var(--alt),0.75);
 padding:2px 5px 1px;
 font-size:11px;
 font-weight:900;
 text-decoration:none;
-text-shadow:none;
+text-shadow: 
+  -1px 0 #fff4,
+  0 1px #fff4,
+  1px 0 #fff4, 
+  0 -1px #fff4;
 text-transform:uppercase;
 }
 
