@@ -18,7 +18,7 @@ width:450px;
 }
 
 .cuprite-top {
-padding:80px 65px 15px;
+padding:85px 65px 15px;
 position:relative;
 text-shadow: 
   -1px 0 #fff6,
@@ -34,7 +34,7 @@ content:var(--unicode);
 font-family:'starry','boolovd';
   -webkit-font-smoothing: antialiased;
 font-size:42px;
-padding:20px 15px 30px;
+padding:20px 15px 25px;
 position:absolute;
   top:0px; right:55px;
   z-index:1;
