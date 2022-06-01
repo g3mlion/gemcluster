@@ -149,3 +149,37 @@ border-bottom:3px solid #d9d9d9;
 font-weight:900;
 padding:1px;
 text-decoration:none; }
+
+/* SUPERCLUSTER SPECIFIC */
+.cuprite-pkmn #faint {
+filter:grayscale(100%);
+opacity:0.7; }
+
+.cuprite-pkmn {
+display:flex;
+  flex-flow:row no-wrap;
+  justify-content:flex-end;
+margin-top:-55px;
+position:relative;
+  right:-50px; bottom:-55px;
+text-align:right;
+z-index:4;
+}
+
+.cuprite-pkmn b {
+display:block;
+font-weight:900;
+text-align:center;
+}
+.cuprite-pkmn b:after {
+content:'HP';
+-webkit-text-fill-color:#bdbdbd;
+font-weight:600;
+text-shadow:none; }
+.cuprite-pkmn span {
+font-size:11px;
+font-weight:900;
+}
+.cuprite-pkmn pkmn {
+margin:-5px -10px 0px;
+}
