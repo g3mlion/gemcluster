@@ -1,0 +1,248 @@
+/* LARIMAR — plotter
+coded & designed by BOO
+ALL RIGHTS RESERVED 2019 - PRESENT */
+
+#staff { --name:'Boo'; }
+#lyonn { --name:'Lyonne Fletcher'; }
+
+.larimar {
+background:#e0e0e0;
+border:1px solid #d9d9d9;
+color:#777;
+font-family:nunito;
+font-size:15px;
+height:565px; width:625px;
+line-height:23px;
+margin:20px auto;
+overflow:hidden;
+position:relative;
+text-align:left;
+}
+
+.larimar-out {
+ display:inline-block; /* or display:block */
+}
+.larimar-out input[type=radio] { display:none; }
+.larimar-out label {
+display:block;
+padding:15px 0px;
+padding-left:15px;
+width:20px;
+position:relative;
+z-index:10;
+}
+.larimar-out label span {
+background:#ccc;
+border-radius:100px;
+display:block;
+height:10px; width:10px;
+margin:auto;
+transition:all ease-in-out .2s .2s;
+}
+.larimar input[type=radio]:checked ~ label span {
+background:#fafafa;
+height:10px; width:20px;
+transition:all ease-in-out .4s .0s;
+}
+
+
+.larimar-in {
+opacity:0;
+position:absolute;
+  top:35px; bottom:0px;
+  left:0px; right:0px;
+z-index:-1;
+transition:all ease-in-out .4s .0s;
+}
+
+.larimar input[type=radio]:checked ~ label ~ .larimar-in {
+opacity:1;
+z-index:1;
+transition:all ease-in-out .8s .0s;
+}
+.larimar input[type=radio]:checked ~ label ~ .larimar-in .larimar-img {
+left:-50px;
+transition:all ease-in-out .6s .0s;
+}
+.larimar input[type=radio]:checked ~ label ~ .larimar-in .larimar-ctnt {
+right:0px;
+transition:all ease-in-out .4s .4s;
+}
+.larimar input[type=radio]:checked ~ label ~ .larimar-in .larimar-wnts {
+right:0px;
+transition:all ease-in-out .6s .4s;
+}
+
+
+.larimar-img {
+background-size:contain;
+background-repeat:no-repeat;
+height:400px; width:400px;
+opacity:0.9;
+position:absolute;
+  bottom:0px; left:-450px;
+z-index:2;
+transition:all ease-in-out .4s .0s;
+}
+#staff .larimar-img a {
+background:rgba(var(--darkg), 0.85); }
+.larimar-img a {
+background:rgba(var(--main), 0.85);
+border-top-right-radius:10px;
+color:#eee;
+font-size:11px;
+font-weight:700;
+padding:5px 20px;
+position:absolute;
+  bottom:0px; left:50px;
+text-decoration:none;
+text-shadow:
+  1px 0px rgba(var(--alt),.3),
+  0px -1px rgba(var(--alt),.3),
+  -1px 0px rgba(var(--alt),.3),
+  0px 1px rgba(var(--alt),.3);
+z-index:3;
+}
+.larimar-img a:before {
+content:'+';
+font-size:16px;
+font-weight:400;
+position:relative;
+  top:1px; right:5px;
+}
+
+
+.larimar-ctnt {
+background:#eaeaea;
+border-top-left-radius:55px;
+padding:25px 30px;
+position:absolute;
+  top:25px; bottom:0px; right:-380px;
+width:300px;
+z-index:1;
+transition:all ease-in-out .4s .0s;
+}
+.larimar-ctnt h1 {
+margin-bottom:55px;
+padding:15px 20px 0px;
+position:relative;
+z-index:1;
+text-align:right;
+}
+.larimar-ctnt h1 span {
+background:#eaeaea;
+color:#9999;
+font-size:10px;
+font-weight:900;
+letter-spacing:2px;
+line-height:9px;
+display:block;
+padding:2.5px 0px 0px;
+position:relative;
+ right:-50px;
+text-align:center;
+width:210px;
+z-index:2;
+}
+
+#staff .larimar-ctnt h1:before {
+background:
+  -webkit-linear-gradient(top, rgba(var(--lightg)) 50%, rgba(var(--darkg)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+.larimar-ctnt h1:before {
+background:
+  -webkit-linear-gradient(top, rgba(var(--main)) 50%, rgba(var(--alt)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+content:'ABOUT';
+font-family:playfair display;
+font-size:52px;
+letter-spacing:1px;
+line-height:50px;
+font-weight:900;
+opacity:0.6;
+position:absolute;
+  bottom:-15.5px; right:25px;
+z-index:-1;
+}
+.larimar-ctnt h1:after {
+content:'';
+background:#ddd;
+display:block;
+height:3px; width:65%;
+position:absolute;
+  bottom:-35px; right:-30px;
+}
+
+
+
+.larimar-blrb {
+padding:5px;
+text-align:right;
+}
+#staff .larimar-blrb:after {
+background:
+  -webkit-linear-gradient(left, rgba(var(--darkg), 0.3), rgba(var(--lightg), 0.7));
+}
+.larimar-blrb:after {
+content:'';
+background:
+  -webkit-linear-gradient(left, rgba(var(--main), 0.3) 25%, rgba(var(--alt), 0.7));
+display:block;
+height:10px;
+position:absolute;
+  bottom:0px; right:0px; left:0px;
+z-index:2px;
+}
+#staff .larimar-blrb b { 
+background:
+  -webkit-linear-gradient(rgba(var(--darkg), 0.85), rgba(var(--lightg), 0.85));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+.larimar b { 
+background:
+  -webkit-linear-gradient(rgba(var(--main), 0.85), rgba(var(--alt), 0.85));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+font-weight:900;
+text-decoration:none;
+text-shadow:none; }
+#staff .larimar-blrb u { 
+border-bottom:2px solid rgba(var(--lightg), 0.5); }
+.larimar u { 
+border-bottom:2px solid rgba(var(--main),0.5);
+text-shadow:none;
+font-weight:700;
+text-decoration:none;
+text-shadow:none; }
+#staff .larimar-blrb i { 
+background:
+  -webkit-linear-gradient(rgba(var(--lightg)), rgba(var(--darkg)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+.larimar i { 
+background:
+  -webkit-linear-gradient(rgba(var(--alt)), rgba(var(--main)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+text-decoration:none;
+text-shadow:none; }
+
+.larimar-wnts {
+background:#fff7;
+color:#777;
+border-top-left-radius:20px;
+border-bottom-left-radius:20px;
+height:90px; width:225px;
+padding:20px 25px;
+position:absolute;
+  bottom:25px; right:-500px;
+text-shadow:
+  1px 0px #fff9,
+  0px -1px #fff9,
+  -1px 0px #fff9,
+  0px 1px #fff9;
+transition:all ease-in-out .4s .0s;
+z-index:5;
+}
