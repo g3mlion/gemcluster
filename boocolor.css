@@ -29,6 +29,9 @@
   --main:159, 168, 205;
   --alt:137, 128, 179;
   --unicode:'\bb3'; }
+#rylian { /* RYLIAN DANGER */
+  --main:157, 94, 143;
+  --alt:100, 66, 133; }
 #sage { /* SAGE ROYAL */
   --main: 131, 91, 142;
   --alt: 78, 61, 114;
