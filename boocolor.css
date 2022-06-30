@@ -17,6 +17,10 @@
   --main: 140, 182, 135;
   --alt: 88, 162, 168;
   --unicode:'\bb11'; }
+#kirby { /* KIRBY BOONCHOY */
+  --main:160, 170, 209;
+  --alt:115, 114, 178;
+  --unicode:'\bb12'; }
 #lyonn { /* LYONNE DARLINGTON */
   --main:222, 159, 179;
   --alt:217, 95, 115;
