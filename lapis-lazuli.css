@@ -91,6 +91,7 @@ background:rgba(var(--main), 0.5);
 border-top-left-radius:15px;
 border-top-right-radius:15px;
 color:#eee;
+font-size:13px;
 padding:8px 15px 15px;
 min-width:80px;
 position:absolute;
