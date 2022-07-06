@@ -7,7 +7,7 @@ color:#666;
 line-height:25px;
 margin:25px auto;
 position:relative;
-width:475px;
+width:450px;
 }
 
 .lpslzl-out {
@@ -27,7 +27,7 @@ background:#eee;
 border-bottom-right-radius:125px;
 height:150px;
 position:absolute;
-  top:0px; left:0px; right:-25px;
+  top:0px; left:0px; right:-35px;
 z-index:3;
 }
 
@@ -37,7 +37,7 @@ border-bottom:1px solid #e5e5e5;
 font-size:15.5px;
 font-weight:400;
 margin:20px 15px 15px 0px;
-padding:75px 30px 40px 45px;
+padding:75px 15px 40px 45px;
 position:relative;
 text-align:left;
 z-index:5;
