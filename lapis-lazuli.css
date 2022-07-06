@@ -96,6 +96,7 @@ min-width:80px;
 position:absolute;
   top:115px; left:-65px;
 transform:rotate(-90deg);
+text-align:center;
 text-shadow:
   1px 0px rgba(var(--alt),.3),
   0px -1px rgba(var(--alt),.3),
