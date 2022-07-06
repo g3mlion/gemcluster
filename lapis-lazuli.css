@@ -1,0 +1,216 @@
+/* LAPIS LAZULI — post
+coded & designed by BOO
+ALL RIGHTS RESERVED 2022 - PRESENT */
+
+.lapislazuli {
+color:#666;
+line-height:25px;
+margin:25px auto;
+position:relative;
+width:475px;
+}
+
+.lpslzl-out {
+background:#f5f5f5;
+border:1px solid #e4e4e4;
+overflow:hidden;
+font-size:13px;
+font-weight:700;
+position:relative;
+padding:40px 40px 25px;
+text-align:RIGHT;
+z-index:1;
+}
+.lpslzl-out:after {
+content:'';
+background:#eee;
+border-bottom-right-radius:125px;
+height:150px;
+position:absolute;
+  top:0px; left:0px; right:-25px;
+z-index:3;
+}
+
+.lpslzl-in {
+border-left:1px solid #e5e5e5;
+border-bottom:1px solid #e5e5e5;
+font-size:15.5px;
+font-weight:400;
+margin:20px 15px 15px 0px;
+padding:75px 30px 40px 45px;
+position:relative;
+text-align:left;
+z-index:5;
+}
+.lpslzl-in:after {
+content:'';
+background:#ddd;
+border-radius:100%;
+padding:3px;
+position:absolute;
+  top:-5px; left:-3.5px; 
+z-index:3;
+}
+
+.lpslzl-in b { 
+color:rgba(var(--alt), 0.75);
+font-weight:900; }
+.lpslzl-in u { 
+border-bottom:2px solid rgba(var(--alt), 0.35);
+color:#666;
+font-weight:700;
+padding:0px 1.5px;
+text-decoration:none;
+text-shadow:none; }
+.lpslzl-in i { 
+background:
+  -webkit-linear-gradient(rgba(var(--alt)), rgba(var(--main)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+text-shadow:none; }
+
+.lpslzl-out a.user-tagged { 
+background:rgba(var(--alt), 0.15)!important;
+border-radius:5px;
+color:rgba(var(--alt),0.75)!important;
+padding:3px 5px 2px 6px!important;
+font-size:11px!important;
+font-weight:900!important;
+text-decoration:none!important;
+text-shadow: 
+  -1px 0 #fff2,
+  0 1px #fff2,
+  1px 0 #fff2, 
+  0 -1px #fff2!important;
+text-transform:uppercase!important;
+}
+.lpslzl-out a { color:rgba(var(--alt), 0.65); }
+
+.lpslzl-ds {
+background:rgba(var(--main), 0.5);
+border-top-left-radius:15px;
+border-top-right-radius:15px;
+color:#eee;
+padding:8px 15px 15px;
+min-width:80px;
+position:absolute;
+  top:115px; left:-65px;
+transform:rotate(-90deg);
+text-shadow:
+  1px 0px rgba(var(--alt),.3),
+  0px -1px rgba(var(--alt),.3),
+  -1px 0px rgba(var(--alt),.3),
+  0px 1px rgba(var(--alt),.3);
+}
+.lpslzl-ds b {
+font-weight:900;
+}
+
+.lpslzl-in span.dice-roll {
+border:0px!important;
+color:#777;
+font-size:13.5px;
+font-weight:700;
+line-height:22px;
+display:inline-block;
+margin-top:4.5px;
+text-align:right;
+text-shadow:none;
+text-transform:uppercase;
+}
+.lpslzl-in span.dice-roll b {
+background:
+  -webkit-linear-gradient(rgba(var(--alt), 0.8), rgba(var(--main), 0.6))!important;
+  -webkit-background-clip: text!important;
+  -webkit-text-fill-color: transparent!important;
+border-bottom:2px solid #d9d9d9;
+font-weight:900;
+padding:1px;
+text-decoration:none; }
+
+.elazul:before {
+background:rgba(var(--main),0.45);
+border:5px solid rgba(var(--alt),0.15);
+border-radius:100%;
+color:#fffd;
+content:var(--unicode);
+display:inline-block;
+font-family:'starry','boolovd';
+  -webkit-font-smoothing:antialiased;
+font-size:42px;
+margin:-25px -15px;
+padding:20px 12.5px;
+position:absolute;
+  top:0px; right:0px;
+z-index:1;
+text-shadow:
+  1px 0px rgba(var(--alt),.2),
+  0px -1px rgba(var(--alt),.2),
+  -1px 0px rgba(var(--alt),.2),
+  0px 1px rgba(var(--alt),.2);
+}
+
+
+/* SUPERCLUSTER SPECIFIC */
+.lpslzl-pkmn #faint {
+filter:grayscale(100%);
+opacity:0.6; }
+
+.lpslzl-pkmn {
+display:flex;
+  flex-flow:row no-wrap;
+  justify-content:flex-end;
+position:absolute;
+  top:25px; right:35px;
+text-align:right;
+z-index:4;
+}
+.lpslzl-pkmn:after {
+content:'PKMN TEAM';
+background:rgba(var(--alt), 0.25);
+border-top-left-radius:15px;
+border-bottom-left-radius:15px;
+color:#f5f5f5;
+font-size:10px;
+font-weight:900;
+padding:5px 10px 4px;
+position:absolute;
+  bottom:-35px; right:-34px;
+text-shadow:
+  1px 0px rgba(var(--alt),.3),
+  0px -1px rgba(var(--alt),.3),
+  -1px 0px rgba(var(--alt),.3),
+  0px 1px rgba(var(--alt),.3);
+}
+
+.lpslzl-pkmn b {
+color:rgba(var(--alt), 0.6);
+display:block;
+font-weight:900;
+text-align:center;
+}
+.lpslzl-pkmn b:after {
+content:'HP';
+color:#bbb;
+margin-left:1px;
+font-weight:600;
+text-shadow:none; }
+.lpslzl-pkmn span {
+font-size:11px;
+font-weight:900;
+position:relative;
+}
+.lpslzl-pkmn span:before {
+content:'';
+background:#f9f9f9;
+border-radius:100%;
+display:inline-block;
+margin:5px 5px;
+padding:25px;
+position:absolute;
+z-index:-1;
+}
+.lpslzl-pkmn pkmn {
+opacity:0.7;
+margin:-5px -5.5px 0px;
+}
