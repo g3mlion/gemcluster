@@ -14,8 +14,8 @@
   --alt:117, 34, 76;
   --unicode:'\bb7'; }
 #evrly { /* EVERLY TALMADGE */
-  --main: 140, 182, 135;
-  --alt: 88, 162, 168;
+  --main: 218, 144, 127;
+  --alt: 137, 97, 158;
   --unicode:'\bb11'; }
 #kirby { /* KIRBY BOONCHOY */
   --main:160, 170, 209;
@@ -25,6 +25,17 @@
   --main:222, 159, 179;
   --alt:217, 95, 115;
   --unicode:'\bb8'; }
+#rylian { /* RYLIAN DANGER */
+  --main:157, 94, 143;
+  --alt:100, 66, 133; }
+#wnfrd { /* WINIFRED PEARL */
+  --main:145, 193, 151;
+  --alt:107, 160, 137;
+  --unicode:'\bb9'; }
+
+
+
+
 #mlchi { /* MALACHI FINCH */
   --main:110, 180, 169;
   --alt:95, 150, 154;
@@ -33,14 +44,7 @@
   --main:159, 168, 205;
   --alt:137, 128, 179;
   --unicode:'\bb3'; }
-#rylian { /* RYLIAN DANGER */
-  --main:157, 94, 143;
-  --alt:100, 66, 133; }
 #sage { /* SAGE ROYAL */
   --main: 131, 91, 142;
   --alt: 78, 61, 114;
   --unicode:'\bb6'; }
-#wnfrd { /* WINIFRED PEARL */
-  --main:145, 193, 151;
-  --alt:110, 176, 137;
-  --unicode:'\bb9'; }
