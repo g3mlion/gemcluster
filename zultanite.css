@@ -165,7 +165,7 @@ background:
   -webkit-text-fill-color: transparent;
 content:var(--unicode);
 display:block;
-font-family:boolovd, starry;
+font-family:boolovd, starry, cappuccicons;
 font-size:52px;
 line-height:52px;
 margin:10px 20px;
