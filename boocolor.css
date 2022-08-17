@@ -28,13 +28,12 @@
 #rylian { /* RYLIAN DANGER */
   --main:157, 94, 143;
   --alt:100, 66, 133; }
-#sage {
+#sage { /*SAGE ROYAL - SC*/
 --main:162, 75, 107;
 --alt: 120, 109, 151;
 --unicode:'\ecce';
 }
-}
-#wnfrd { /* WINIFRED PEARL */
+#wnfrd { /* WINIFRED BARLOW */
   --main:145, 193, 151;
   --alt:107, 160, 137;
   --unicode:'\bb9'; }
