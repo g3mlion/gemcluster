@@ -1,6 +1,6 @@
 /* ZINCITE
 coded & designed by BOO
-ALL RIGHTS RESERVED 2019 - PRESENT */
+ALL RIGHTS RESERVED 2022 - PRESENT */
 #temp {--main:102, 102, 102; --alt:102, 102, 102;}
 
 .zincite {
@@ -39,7 +39,7 @@ z-index:1;
 border-left:1px solid rgba(var(--main), 0.5);
 border-right:1px solid rgba(var(--main), 0.5);
 margin:0px 55px;
-padding:115px 45px 25px;
+padding:115px 45px 0px;
 position:relative;
 z-index:15;
 text-shadow: 
@@ -54,13 +54,6 @@ content:'';
 height:1px; width:55px;
 position:absolute;
   top:55px; left:-56px;
-}
-.zincite-in:after {
-background:rgba(var(--alt), 0.3);
-content:'';
-height:1px; width:90px;
-position:absolute;
-  bottom:55px; right:-56px;
 }
 
 .zincite-date:before {
@@ -99,7 +92,16 @@ text-shadow:
 font-size:13.5px;
 line-height:19.5px;
 padding-top:45px;
+padding-bottom:45px;
 text-align:right;
+position:relative;
+}
+.zincite-tag:after {
+background:rgba(var(--alt), 0.3);
+content:'';
+height:1px; width:90px;
+position:absolute;
+  bottom:55px; right:-101px;
 }
 
 .zincite-tag a { color:rgba(var(--alt),0.85);
