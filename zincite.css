@@ -1,0 +1,158 @@
+/* ZINCITE
+coded & designed by BOO
+ALL RIGHTS RESERVED 2019 - PRESENT */
+#temp {--main:102, 102, 102; --alt:102, 102, 102;}
+
+.zincite {
+background:#f4f4f4;
+border:1px solid #e0e0e0;
+color:#666;
+font-size:15.5px;
+font-weight:400;
+line-height:25px;
+margin:25px auto;
+overflow:hidden;
+padding:0px;
+position:relative;
+text-align:left;
+width:475px;
+}
+
+.zincite:before {
+background: radial-gradient(rgba(var(--main), 0.2), #fff0, #f4f4f4);
+content:'';
+padding:150px;
+position:absolute;
+  top:-85px; left:-85px;
+z-index:1;
+}
+.zincite:after {
+background: radial-gradient(rgba(var(--main), 0.2), #fff0, #f4f4f4);
+content:'';
+padding:150px;
+position:absolute;
+  bottom:-85px; right:-85px;
+z-index:1;
+}
+
+.zincite-in {
+border-left:1px solid rgba(var(--main), 0.5);
+border-right:1px solid rgba(var(--main), 0.5);
+margin:0px 55px;
+padding:115px 45px 25px;
+position:relative;
+z-index:15;
+text-shadow: 
+  -1px 0 #f4f4f450,
+  0 1px #f4f4f450,
+  1px 0 #f4f4f450, 
+  0 -1px #f4f4f450;
+}
+.zincite-in:before {
+background:rgba(var(--alt), 0.3);
+content:'';
+height:1px; width:55px;
+position:absolute;
+  top:55px; left:-56px;
+}
+.zincite-in:after {
+background:rgba(var(--alt), 0.3);
+content:'';
+height:1px; width:90px;
+position:absolute;
+  bottom:55px; right:-56px;
+}
+
+.zincite-date:before {
+background:
+  -webkit-linear-gradient(rgba(var(--alt),0.75), rgba(var(--main),0.75));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height:38px; margin:-1px; padding:1px;
+content:var(--unicode);
+font-family:'starry','boolovd';
+  -webkit-font-smoothing:antialiased;
+font-size:38px;
+position:absolute;
+  top:-45px; left:15px;
+}
+.zincite-date {
+background:rgba(var(--alt), 0.4);
+display:inline-block;
+padding:1px 10px 0px;
+position:absolute;
+  top:55px; left:55px;
+z-index:10;
+}
+.zincite-date i {
+color:#eee;
+font-size:10px;
+font-weight:900;
+text-shadow: 
+  -1px 0 rgba(var(--alt),0.4),
+  0 1px rgba(var(--alt),0.4),
+  1px 0 rgba(var(--alt),0.4), 
+  0 -1px rgba(var(--alt),0.4);
+}
+
+.zincite-tag {
+font-size:13.5px;
+line-height:19.5px;
+padding-top:45px;
+text-align:right;
+}
+
+.zincite-tag a { color:rgba(var(--alt),0.85);
+font-style:italic;
+font-size:11px;
+font-weight:900;
+text-transform:uppercase; }
+.zincite-tag a.user-tagged { 
+background:rgba(var(--main),0.6);
+color:#eee;
+font-size:10px!important;
+font-weight:900!important;
+padding:3px 6px 2px!important;
+text-decoration:none!important;
+text-transform:uppercase!important;
+text-shadow: 
+  -1px 0 rgba(var(--main),0.7),
+  0 1px rgba(var(--main),0.7),
+  1px 0 rgba(var(--main),0.7), 
+  0 -1px rgba(var(--main),0.7);
+}
+
+.zincite span.dice-roll {
+border:0px!important;
+color:#777;
+font-size:11.5px;
+font-weight:700;
+display:inline-block;
+text-transform:uppercase;
+}
+.zincite span.dice-roll b {
+background:
+  -webkit-linear-gradient(rgba(var(--alt), 0.8), rgba(var(--main), 0.6))!important;
+  -webkit-background-clip: text!important;
+  -webkit-text-fill-color: transparent!important;
+border-bottom:2px solid #e5e5e5e5;
+font-weight:900;
+padding:1px;
+text-decoration:none;
+text-shadow:none; }
+
+.zincite-in b { 
+color:rgba(var(--alt), 0.8);
+font-weight:900; }
+.zincite-in u { 
+border-bottom:2px solid rgba(var(--main), 0.5);
+color:#666;
+font-weight:700;
+padding:0px 1.5px;
+text-decoration:none; }
+.zincite-in i { 
+background:
+  -webkit-linear-gradient(rgba(var(--alt)), rgba(var(--main)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+text-shadow:none; }
