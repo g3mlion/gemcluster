@@ -17,31 +17,19 @@
 --main:101, 177, 151;
 --alt:81, 135, 151;
   --unicode:'\bb11'; }
-#kirby { /* KIRBY BOONCHOY */
-  --main:160, 170, 209;
-  --alt:115, 114, 178;
-  --unicode:'\bb12'; }
 #lyonn { /* LYONNE DARLINGTON */
   --main:222, 159, 179;
   --alt:217, 95, 115;
   --unicode:'\bb8'; }
-#rylian { /* RYLIAN DANGER */
-  --main:157, 94, 143;
-  --alt:100, 66, 133; }
-#sage { /*SAGE ROYAL - SC*/
---main:162, 75, 107;
---alt: 120, 109, 151;
---unicode:'\ecce';
-}
 #wnfrd { /* WINIFRED BARLOW */
-  --main:145, 193, 151;
-  --alt:107, 160, 137;
+  --main:222,137,107;
+  --alt:208,113,122;
   --unicode:'\bb9'; }
 
 
 
 
-#mlchi { /* MALACHI FINCH */
+#oldmlchi { /* MALACHI FINCH */
   --main:110, 180, 169;
   --alt:95, 150, 154;
   --unicode:'\bb18'; }
@@ -49,6 +37,9 @@
   --main:159, 168, 205;
   --alt:137, 128, 179;
   --unicode:'\bb3'; }
+#rylian { /* RYLIAN DANGER */
+  --main:157, 94, 143;
+  --alt:100, 66, 133; }
 #oldsage { /* SAGE ROYAL */
   --main: 131, 91, 142;
   --alt: 78, 61, 114;
