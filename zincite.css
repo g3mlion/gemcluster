@@ -112,6 +112,7 @@ text-transform:uppercase; }
 .zincite-tag a.user-tagged { 
 background:rgba(var(--main),0.6);
 color:#eee;
+display:inline-block;
 font-size:10px!important;
 font-weight:900!important;
 padding:3px 6px 2px!important;
