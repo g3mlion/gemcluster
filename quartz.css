@@ -1,0 +1,113 @@
+/* QUARTZ
+coded & designed by BOO
+ALL RIGHTS RESERVED 2022 - PRESENT */
+#temp {--main:102, 102, 102; --alt:102, 102, 102;}
+
+.quartz {
+background:#f4f4f4;
+border:1px solid #ddd;
+box-shadow:1px 1px 5px #e0e0e0;
+color:#666;
+font-size:13.5px;
+font-weight:400;
+line-height:25px;
+margin:25px auto;
+overflow:hidden;
+padding:20px 35px 25px;
+position:relative;
+text-align:right;
+text-shadow: 
+  -1px 0 #fff9,
+  0 1px #fff9,
+  1px 0 #fff9, 
+  0 -1px #fff9;
+width:425px;
+}
+
+.quartz-top {
+display:flex;
+  align-items:flex-end;
+  flex-flow:row nowrap;
+  justify-content:flex-end;
+}
+
+.quartz-ds, .quartz.dice-roll {
+border-bottom:2px solid #e6e6e6;
+text-transform:uppercase;
+opacity:0.8;
+position:relative;
+}
+.quartz-ds b, .quartz span.dice-roll b {
+background:
+  -webkit-linear-gradient(rgba(var(--alt)) -35%, rgba(var(--main),0.6));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+font-weight:900;
+text-shadow:none;
+}
+
+.quartz-top span {
+background:#ededed;
+border-radius:100%;
+display:inline-block;
+margin:15px 5px -15px 20px;
+padding:25px;
+}
+.quartz-top span:before {
+background:
+  -webkit-linear-gradient(rgba(var(--alt)) -35%, rgba(var(--main),0.6));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+content:var(--unicode);
+font-family:'starry','boolovd';
+  -webkit-font-smoothing:antialiased;
+font-size:32px;
+font-weight:400;
+line-height:100%;
+text-shadow:none;
+}
+
+.quartz-in {
+font-size:15.5px;
+border-left:1px solid #ddd;
+margin:35px 15px;
+margin-right:0px;
+padding:15px 45px 15px;
+text-align:left;
+}
+
+.quartz-in b { 
+color:rgba(var(--alt), 0.8);
+font-weight:900; }
+.quartz-in u { 
+border-bottom:2px solid rgba(var(--main), 0.5);
+color:#666;
+font-weight:700;
+text-decoration:none; }
+.quartz-in i { 
+opacity:0.6;
+text-shadow:none; }
+
+.quartz a {
+color:#6669;
+text-decoration:none!important;
+}
+.quartz a.user-tagged { 
+background:
+  -webkit-linear-gradient(rgba(var(--alt)) -35%, rgba(var(--main)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+display:inline-block;
+font-style:italic;
+font-weight:700;
+text-shadow:none;
+text-transform:lowercase; }
+
+.quartz span.dice-roll {
+border:0px!important;
+border-bottom:2px solid #e6e6e6!important;
+display:inline-block;
+opacity:0.8;
+position:relative;
+text-transform:uppercase;
+}
