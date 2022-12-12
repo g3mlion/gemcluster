@@ -13,7 +13,7 @@ font-weight:400;
 line-height:25px;
 margin:25px auto;
 overflow:hidden;
-padding:20px 35px 25px;
+padding:20px 35px 70px;
 position:relative;
 text-align:right;
 text-shadow: 
@@ -23,6 +23,12 @@ text-shadow:
   0 -1px #fff9;
 width:425px;
 }
+.quartz svg {
+position:absolute;
+  bottom:0px; left:0px; right:0px;
+z-index:0;
+}
+
 
 .quartz-top {
 display:flex;
@@ -51,7 +57,7 @@ background:#ededed;
 border-radius:100%;
 display:inline-block;
 margin:15px 5px -15px 20px;
-padding:20px 22.5px;
+padding:20px 22.5px 18px;
 }
 .quartz-top span:before {
 background:
