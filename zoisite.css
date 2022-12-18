@@ -273,7 +273,7 @@ text-shadow:
   1px 0 rgba(var(--alt),0.5), 
   0 -1px rgba(var(--alt),0.5);
 text-transform:uppercase;
-z-index:3; }
+z-index:10; }
 
 .ship {
   flex:1 0 auto;
