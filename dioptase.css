@@ -157,8 +157,8 @@ padding:0px 20px; }
 .dptse-img {
 background-repeat:no-repeat;
 background-size:cover;
-height:400px; width:355px;
-opaci/ty:0.95;
+height:400px; width:350px;
+opacity:0.95;
 position:absolute;
   bottom:0px; left:0px;
 z-index:10; }
