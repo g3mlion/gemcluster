@@ -1,0 +1,273 @@
+/* DIOPTASE
+coded & designed by BOO
+ALL RIGHTS RESERVED 2023 - PRESENT */
+
+
+.dioptase {
+background:#f4f4f4;
+border:1px solid #ddd;
+box-shadow:1px 1px 5px #e0e0e0;
+color:#666;
+font-family:nunito;
+font-size:15px;
+font-weight:400;
+height:575px; width:600px;
+line-height:25px;
+margin:25px auto;
+overflow:hidden;
+position:relative;
+text-align:left;
+text-shadow: 
+  -1px 0 #fff9,
+  0 1px #fff9,
+  1px 0 #fff9, 
+  0 -1px #fff9; }
+
+.dioptase b { 
+color:rgba(var(--alt), 0.8);
+font-weight:900; }
+.dioptase u { 
+border-bottom:2px solid rgba(var(--main), 0.5);
+color:#666;
+font-weight:700;
+text-decoration:none; }
+.dioptase i { 
+opacity:0.6;
+text-shadow:none; }
+
+.dioptase-out {
+height:575px; width:600px;
+position:relative;
+}
+
+.dioptase-in {
+ display:inline-block; /* or display:block */
+}
+.dioptase-in input[type=radio] { display:none; }
+.dioptase-in label {
+display:inline-flex;
+  justify-content:center;
+  align-items:center;
+padding:8px;
+position:relative;
+  top:537px;
+z-index:15;
+}
+.dioptase-in label span {
+background:#666;
+border:2px solid #f4f4f4;
+border-radius:100%;
+display:inline-flex;
+margin:0px 0px 0px 15px;
+padding:3px;
+transition:all ease-in-out 0.4s;
+}
+input[type=radio]:checked ~ label span {
+background:rgba(var(--main),0.75);
+border:2px solid;
+border-color:rgba(var(--main),0.0);
+border-radius:100%;
+transition:all ease-in-out 0.4s;
+}
+
+.dptse-content {
+background:#eee;
+border-bottom:1px solid #e9e9e9;
+opacity:0;
+position:absolute;
+  top:0px; bottom:50px;
+  left:0px; right:0px;
+transition:all ease-in-out 0.4s;
+z-index:-1;
+}
+input[type=radio]:checked ~ label ~ .dptse-content {
+opacity:1;
+transition:all ease-in-out 0.4s;
+z-index:2;
+}
+
+a.dptse-lnx {
+background:rgba(var(--main),0.75);
+color:#eee;
+clip-path: polygon(12% 0, 100% 0%, 100% 100%, 12% 100%, 0 50%);
+font-size:11px;
+font-weight:900;
+padding:5px 10px;
+padding-left:18px;
+position:absolute;
+  bottom:-17.5px; right:-1px;
+text-align:right;
+text-decoration:none;
+text-shadow:
+  -1px 0 rgba(var(--alt),0.6),
+  0 1px rgba(var(--alt),0.6),
+  1px 0 rgba(var(--alt),0.6), 
+  0 -1px rgba(var(--alt),0.6);
+width:70px;
+z-index:15;
+}
+
+.dptse-lft {
+background-image:linear-gradient(to bottom, rgba(var(--main), 0.7) 50%, rgb(var(--alt), 0.9));
+width:250px;
+position:absolute;
+  top:0px; bottom:0px;
+}
+.dptse-lft:before {
+  content:'';
+background-position:bottom center;
+background-repeat:no-repeat;
+background-size:cover;
+filter:grayscale(100%);
+width:100%;
+position:absolute;
+  top:0px; bottom:0px;
+z-index:-1;
+}
+.dptse-lft:after {
+  content:'';
+background-image:linear-gradient(to right, rgba(var(--main), 0.0), #eee);
+width:80%;
+position:absolute;
+  top:0px; right:0px; bottom:0px;
+z-index:3;
+}
+
+.dptse-nm {
+color:#eee;
+font-family: 'Grand Hotel', cursive;
+font-size:62px;
+height:96px; width:115%;
+line-height:5px;
+padding:45px 0px 0px;
+position:relative;
+  top:0px; right:-15px;
+text-shadow:
+  -1px 0 rgba(var(--alt),0.4),
+  0 1px rgba(var(--alt),0.4),
+  1px 0 rgba(var(--alt),0.4), 
+  0 -1px rgba(var(--alt),0.4);
+z-index:25; }
+.dptse-nm hr {
+background:transparent;
+border:0px;
+display:inline-block;
+padding:0px 20px; }
+
+.dptse-img {
+background-repeat:no-repeat;
+background-size:cover;
+height:400px; width:355px;
+opaci/ty:0.95;
+position:absolute;
+  bottom:0px; left:0px;
+z-index:10; }
+
+
+.dptse-rgt {
+width:400px;
+position:absolute;
+  top:0px; right:0px; bottom:0px;
+}
+
+.dptse-stat {
+background:rgba(var(--main), 0.7);
+border-radius:0px 0px 20px 20px;
+color:#eee;
+font-size:9px;
+font-weight:900;
+padding:5px 18px 5px;
+position:absolute;
+  top:0px; right:15px;
+text-shadow: 
+  -1px 0 rgba(var(--alt),0.6),
+  0 1px rgba(var(--alt),0.6),
+  1px 0 rgba(var(--alt),0.6), 
+  0 -1px rgba(var(--alt),0.6);
+text-transform:uppercase;
+z-index:10;
+}
+
+.dptse-blrb {
+border-left:1px solid #ddd;
+position:relative;
+  top:85px; left:55px;
+padding:5px 35px 15px;
+width:275px;
+z-index:5;
+}
+
+.dptse-blrb span {
+border:1px solid #d6d6d6;
+display:inline-block;
+padding:5px;
+position:absolute;
+  top:-63px; left:-26.5px;
+transform:rotate(-45deg);
+}
+
+.dptse-blrb span:before {
+background:-webkit-linear-gradient(rgba(var(--alt)) -35%, rgba(var(--main),0.6));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+border-radius:100%;
+color:#fafafa;
+content:var(--unicode);
+display:inline-block;
+font-family:'boolovd', 'starry';
+  -webkit-font-smoothing: antialiased;
+font-size:28px;
+padding:8px 7px;
+transform:rotate(45deg);
+text-shadow:none;
+z-index:1; 
+}
+
+.dptse-wnts {
+background:#e2e2e2;
+clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+height:85px; width:200px;
+opacity:0.8;
+padding:45px;
+padding-left:175px;
+position:absolute;
+  bottom:0px; right:-1px;
+z-index:5;
+}
+.dptse-wnts b { color:rgba(var(--main))!important; }
+
+#boo .dptse-lft:before {
+background-image:url(https://64.media.tumblr.com/405b0412b53a4e7c69c425cf1937fbc0/tumblr_ne467aHpWr1smn4pqo5_1280.jpg);
+background-position:45% 0px;
+opacity:0.6;
+}
+#colt .dptse-lft:before {
+background-image:url(https://cdn.discordapp.com/attachments/866689731609100319/1061522497620680734/unknown.png);
+background-position:60% 0px;
+opacity:0.6;
+}
+#evrly .dptse-lft:before {
+background-image:url(https://cdn.discordapp.com/attachments/866689775070871572/1061558989084700733/unknown.png);
+background-position:25% 0px;
+opacity:0.6;
+}
+#jlina .dptse-lft:before {
+background-image:url(https://cdn.discordapp.com/attachments/1056840197964316692/1061530045493026826/unknown.png);
+background-position:75% 0px;
+opacity:0.6;
+}
+#lyonn .dptse-lft:before {
+background-image:url(https://media.discordapp.net/attachments/866689844847837215/1061527004081569862/unknown.png);
+background-position:45% 0px;
+opacity:0.7;
+}
+#naomi .dptse-lft:before {
+background-image:url(https://cdn.discordapp.com/attachments/948617826221056020/1061522821618081843/unknown.png);
+background-position:85% 0px;
+opacity:0.6;
+}
+#wnfrd .dptse-lft:before {
+background-image:url(https://cdn.discordapp.com/attachments/902923323590189167/1061522461281235045/unknown.png);
+background-position:10% 0px;
+opacity:0.6;
+}
