@@ -29,11 +29,11 @@ width:425px;
 }
 .tourmaline b { 
 color:rgba(var(--alt), 0.7);
-font-weight:900; }
+font-weight:700; }
 .tourmaline u { 
 border-bottom:2px solid rgba(var(--main), 0.5);
 color:#666;
-font-weight:700;
+font-weight:500;
 text-decoration:none; }
 .tourmaline i { 
 opacity:0.6;
@@ -46,11 +46,11 @@ display:inline-flex;
 }
 .trmln-dts span {
 color:#6666;
-font-size:22px;
-font-weight:900;
+font-size:18px;
+font-weight:700;
 }
 .trmln-dts span b { 
-font-size:24px;
+font-size:20px;
 display:block;
 background:
   -webkit-linear-gradient(rgba(var(--main)) -25%, rgba(var(--alt),0.8));
