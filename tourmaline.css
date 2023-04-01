@@ -56,7 +56,6 @@ background:
   -webkit-linear-gradient(rgba(var(--main)) -25%, rgba(var(--alt),0.8));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-border:1px solid rgba(var(--alt),0.35);
 font-weight:400;
 text-shadow:none; }
 
@@ -67,6 +66,7 @@ color:#eee;
 content:var(--unicode);
 font-family:'starry','boolovd';
   -webkit-font-smoothing:antialiased;
+border:1px solid rgba(var(--alt),0.35);
 font-size:32px;
 font-weight:400;
 line-height:100%;
