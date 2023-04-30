@@ -14,8 +14,8 @@
   --alt:117, 34, 76;
   --unicode:'\bb7'; }
 #evrly { /* EVERLY TALMADGE */
---main:101, 177, 151;
---alt:81, 135, 151;
+  --main:220, 140, 115;
+  --alt:147, 102, 157;
   --unicode:'\bb11'; }
 #jlina { /* JULIANA ERICKSON */
   --main:208, 63, 94;
@@ -35,6 +35,10 @@
   --unicode:'\bb9'; }
 
 
+#oldevrly {
+  --main:101, 177, 151;
+  --alt:81, 135, 151;
+}
 #oldmlchi { /* MALACHI FINCH */
   --main:110, 180, 169;
   --alt:95, 150, 154;
