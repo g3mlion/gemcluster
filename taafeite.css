@@ -1,0 +1,118 @@
+/* TAAFEITE
+coded & designed by BOO
+ALL RIGHTS RESERVED 2023 - PRESENT */
+
+.taafeite {
+background:#f4f4f4;
+border:1px solid #ddd;
+box-shadow:1px 1px 5px #e0e0e0;
+color:#666;
+font-size:14px;
+font-weight:500;
+line-height:26px;
+margin:35px auto;
+overflow:hidden;
+padding:35px 35px 25px;
+position:relative;
+text-align:left;
+text-shadow: 
+  -1px 0 #fff9,
+  0 1px #fff9,
+  1px 0 #fff9, 
+  0 -1px #fff9;
+width:465px; }
+
+.taafeite:before {
+content:'';
+background:-webkit-linear-gradient(left, rgba(var(--main),0.75), rgba(var(--alt),0.75));
+height:30px; width:75px;
+padding:10px 20px;
+position:absolute;
+  bottom:20px; left:86px;
+z-index:3; }
+.taafeite:after {
+content:'';
+border:1px solid transparent;
+border-left-color:#ddd;
+border-bottom-color:#ddd;
+padding:75px 20px;
+position:absolute;
+  bottom:45px; left:45px; }
+
+.taafeite b { 
+color:rgba(var(--alt), 0.8);
+font-weight:700; }
+.taafeite u { 
+border-bottom:2px solid rgba(var(--main), 0.5);
+color:#666;
+font-weight:600;
+text-decoration:none; }
+.taafeite i { 
+opacity:0.75;
+text-shadow:none; }
+
+.taafeite-dts:before {
+background:rgba(var(--black));
+color:#ddde;
+clip-path:polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+content:var(--unicode);
+font-family:'starry','boolovd';
+  -webkit-font-smoothing:antialiased;
+font-size:36px;
+font-weight:100;
+line-height:100%;
+padding:25px 15px 25px;
+position:absolute;
+  top:0px; right:50px;
+text-shadow:none; }
+.taafeite-dts span {
+border-bottom:3px solid #ddd;
+font-size:14px;
+font-weight:700;
+padding:10px 15px;
+position:absolute;
+  top:23px; left:-21px;
+transform:rotate(-90deg); }
+.taafeite-dts span b { 
+color:rgba(var(--alt), 0.6);
+font-weight:700!important;
+text-shadow:none; }
+
+.taafeite-in {
+font-size:15.5px;
+margin:35px 15px 0px;
+margin-right:0px;
+padding:45px;
+text-align:left;
+position:relative;
+z-index:2; }
+
+.taafeite-btm {
+background:#eee;
+font-style:italic;
+margin:0px -35px 15px 75px;
+padding:25px 35px 40px;
+position:relative;
+z-index:1; }
+.taafeite-btm a {
+color:rgba(var(--main), 0.75);
+text-decoration:none!important; }
+
+.taafeite-btm a.user-tagged { 
+background:rgba(var(--black));
+clip-path:polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+color:#ddd;
+display:inline-block;
+font-weight:600;
+padding:0px 10px 3px 8px;
+text-shadow:none;
+text-transform:lowercase; }
+
+.taafeite-btm span.dice-roll {
+border:0px!important;
+border-bottom:2px solid #ddd!important;
+font-style:normal;
+display:inline-block;
+opacity:0.8;
+position:relative;
+text-transform:uppercase; }
