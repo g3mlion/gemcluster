@@ -52,7 +52,7 @@ opacity:0.75;
 text-shadow:none; }
 
 .taafeite-dts:before {
-background:rgba(var(--black));
+background:rgba(var(--black),0.8);
 color:#ddde;
 clip-path:polygon(0 0, 100% 0, 100% 90%, 0% 100%);
 content:var(--unicode);
@@ -99,9 +99,9 @@ color:rgba(var(--main), 0.75);
 text-decoration:none!important; }
 
 .taafeite-btm a.user-tagged { 
-background:rgba(var(--black));
+background:rgba(var(--black),0.8);
 clip-path:polygon(0 0, 100% 0, 100% 90%, 0% 100%);
-color:#ddd;
+color:#ddde;
 display:inline-block;
 font-weight:600;
 padding:0px 10px 3px 8px;
