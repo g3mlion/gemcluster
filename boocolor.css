@@ -43,9 +43,10 @@
   --main:110, 180, 169;
   --alt:95, 150, 154;
   --unicode:'\bb18'; }
-#rylian { /* RYLIAN DANGER */
+#olndr { /* RYLIAN DANGER */
   --main:157, 94, 143;
-  --alt:100, 66, 133; }
+  --alt:100, 66, 133;
+  --unicode:'\bb18'; }
 #oldsage { /* SAGE ROYAL */
   --main: 131, 91, 142;
   --alt: 78, 61, 114;
