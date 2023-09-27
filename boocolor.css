@@ -4,6 +4,35 @@
   --alt:153, 153, 153;
   --unicode:'\bb2'; }
 
+#boo {
+  --main:133, 189, 186;
+  --alt:230, 160, 97;
+  --unicode:'\bb4'; }
+#adrian {
+  --main:149, 167, 225;
+  --alt:133, 132, 202;
+  --unicode:'\bb1'; }
+#colton {
+  --main:162, 75, 107;
+  --alt:117, 34, 76;
+  --unicode:'\bb7'; }
+#everly {
+  --main:220, 140, 115;
+  --alt:147, 102, 157;
+  --unicode:'\bb11'; }
+#juliana {
+  --main:200, 65, 85;
+  --alt:124, 89, 143;
+  --unicode:'\bb20'; }
+#lyonne {
+  --main:232, 186, 148;
+  --alt:226, 129, 89;
+  --unicode:'\bb8'; }
+#winifred {
+  --main:227, 146, 164;
+  --alt:204, 86, 128;
+  --unicode:'\bb9'; }
+
 #boo { 
   --main:143, 179, 201;
   --alt:140, 106, 148;
