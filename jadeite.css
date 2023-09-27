@@ -1,0 +1,363 @@
+/* JADEITE — plotter
+coded & designed by BOO
+ALL RIGHTS RESERVED 2023 - PRESENT */
+
+
+.jadeite {
+background:#efefef;
+color:#444;
+font-family:quicksand;
+font-size:15px;
+font-weight:400;
+line-height:22px;
+height:700px; width:670px;
+line-height:18px;
+margin:20px auto;
+overflow:hidden;
+padding:0px;
+position:relative;
+text-align:left; }
+
+.jadeite-wrap {
+height:700px; width:670px;
+position:relative; }
+
+.jadeite-tab { display:block; }
+.jadeite-tab input[type=radio] { display:none; }
+.jadeite-tab label {
+background:#d2d2d2;
+border-radius:20%;
+display:inline-block;
+margin:10px 0px 0px;
+padding:8px;
+position:relative;
+  top:28px; left:92%;
+text-align:center;
+transition:all ease-in-out 0.4s;
+z-index:10; }
+.jadeite-tab:nth-child(odd) label {
+left:85.5%;
+margin-bottom:-0px; } 
+.jadeite-tab label:hover {
+background:#555;
+transition:all ease-in-out 0.4s; }
+
+input[type=radio]:checked ~ label {
+background:linear-gradient(to bottom right, rgba(var(--main), 0.5) 20%, rgb(var(--main)));
+box-shadow:2px 2px 0px #fafafa;
+transition:all ease-in-out 0.4s;
+z-index:5; }
+
+
+.jadeite-in {
+opacity:0;
+position:absolute;
+  top:0px; bottom:0px;
+  left:0px; right:0px;
+transform:translateX(-100%);
+transform:translateY(20px);
+transition: opacity 0.2s ease-in, transform 0.5s ease-in-out;
+  transition-delay: 0.3s;
+ z-index:0; }
+input[type=radio]:checked ~ label ~ .jadeite-in {
+opacity:1;
+transform:translateX(0%);
+transform:translateY(0px);
+transition: opacity 0.2s ease-in, transform 0.5s ease-in-out;
+z-index:2; }
+
+.jdte-top {
+background:#f9f9f9;
+border-radius:50px;
+height:475px; max-width:80%;
+position:relative;
+z-index:5;
+}
+h1.jdte-h1 {
+color:#4a4a4a;
+font-family:'magic retro';
+font-size:45px;
+padding:65px 70px 0px;
+margin:0px;
+text-shadow: 
+  -1px 0 #fff9,
+  0 1px #fff9,
+  1px 0 #fff9, 
+  0 -1px #fff9; }
+h1.jdte-h1:before {
+background:radial-gradient(circle at top left, rgba(var(--main), 0.4) -5%, rgb(var(--main), 1));
+border-top-left-radius:15px;
+border-top-right-radius:15px;
+box-shadow:3px 3px 0px #eee;
+color:#fafafa;
+content:var(--unicode);
+font-family:'boolovd', 'starry';
+  -webkit-font-smoothing:antialiased;
+font-size:36px;
+font-weight:400;
+line-height:100%;
+opacity:1;
+padding:15px;
+position:absolute;
+  top:25px; left:25px;
+text-shadow: 
+  -1px 0 rgba(var(--main)),
+  0 1px rgba(var(--main)),
+  1px 0 rgba(var(--main)), 
+  0 -1px rgba(var(--main));
+z-index:-1; }
+.jdte-h2 {
+background:#4a4a4a;
+border-top-right-radius:20px;
+border-bottom-right-radius:20px;
+color:#eee;
+display:inline-block;
+font-size:11px;
+padding:5px 20px;
+margin:1px 0px 0px;
+text-shadow: 
+  -1px 0 #0003,
+  0 1px #0003,
+  1px 0 #0003, 
+  0 -1px #0003;
+text-transform:uppercase; }
+
+.jdte-blrb {
+border-left:1px solid #efefef;
+display:block;
+font-size:15px;
+font-weight:500;
+line-height:22px;
+margin-left:55px;
+padding:15px 55px 35px 25px; }
+.jdte-blrb b { 
+color:rgba(var(--main),0.9);
+font-weight:700; }
+.jdte-blrb u { 
+border-bottom:2px solid rgba(var(--alt),0.5);
+color:#666;
+font-weight:600;
+text-decoration:none; }
+.jdte-blrb i { 
+opacity:0.65;
+font-weight:500;
+text-shadow:none; }
+
+a.jdte-lnx {
+background:#4a4a4a;
+border:10px solid #efefef;
+border-radius:50px;
+color:#eee;
+display:inline-flex;
+  flex-wrap:nowrap;
+  justify-content:center;
+  align-items:center;
+font-size:11px;
+font-weight:700;
+height:23px;
+padding:5px 15px;
+position:absolute;
+  bottom:0px; right:-143px;
+text-decoration:none;
+text-shadow: 
+  -1px 0 #0003,
+  0 1px #0003,
+  1px 0 #0003, 
+  0 -1px #0003;
+z-index:10; }
+
+.jdte-extra {
+background:#4a4a4a;
+border-radius:15px;
+color:#ddd;
+padding:15px 20px;
+height:132px; width:230px;
+position:absolute;
+  bottom:65px; right:-124px;
+text-shadow: 
+  -1px 0 #0003,
+  0 1px #0003,
+  1px 0 #0003, 
+  0 -1px #0003; }
+.jdte-extra b {
+background:rgba(var(--main),0.5);
+border-radius:5px;
+color:#eee;
+display:inline-block;
+font-weight:500;
+padding:0px 5px 1px; }
+
+.jdte-rgt {
+background:rgba(var(--main),0.6);
+border-top-right-radius:20px;
+border-bottom-right-radius:20px;
+height:154px; width:15.4%;
+padding:15px;
+position:absolute;
+  top:34%; right:0px;
+z-index:1; }
+.jdte-rgt:after {
+background:rgba(var(--main),0.6);
+content:'';
+height:53px; width:150px;
+position:absolute;
+  bottom:-53px; right:50px;
+z-index:-1; }
+
+
+.jdte-bot {
+background:rgba(var(--main),0.6);
+border-bottom-left-radius:30px;
+border-top-right-radius:30px;
+border-bottom-right-radius:30px;
+height:225px;
+position:absolute;
+  bottom:0px; left:50px; right:0px;
+z-index:10; }
+.jdte-bot:after {
+background:linear-gradient(to bottom right, rgba(var(--main),0.1) 20%, rgb(var(--alt),0.6));
+border-radius:80% 0px 80% 0px;
+border-bottom-right-radius:30px;
+content:'';
+padding:75px 200px;
+position:absolute;
+ right:0px; bottom:0px; }
+.jdte-hov {
+background-position:bottom left;
+background-repeat:no-repeat;
+background-size:cover;
+height:400px; width:350px;
+position:absolute;
+  bottom:0px; left:20px;
+z-index:2; }
+
+.jdte-brgt {
+display:inline-flex;
+  flex-flow:row wrap;
+  justify-content:center;
+  align-content:center;
+position:absolute;
+  top:0px; right:0px; bottom:25px;
+width:50%;
+z-index:1;
+}
+.jdte-brgt:before {
+content:'skills';
+color:#efefef;
+font-family:'magic retro';
+font-size:62px;
+position:absolute;
+  bottom:-23px; right:20px;
+text-shadow: 
+  -1px 0 rgba(var(--alt),0.7),
+  0 1px rgba(var(--alt),0.7),
+  1px 0 rgba(var(--alt),0.7), 
+  0 -1px rgba(var(--alt),0.7);
+z-index:2; }
+
+.jdte-sklz {
+margin:2.5px;
+text-align:center;
+width:25%; }
+.jdte-sklz bar {
+background:rgba(var(--main),0.5);
+border:5px solid #eee;
+color:#efefefbb;
+border-radius:100%;
+display:inline-block;
+font-family:'starry';
+  -webkit-font-smoothing:antialiased;
+font-size:34px;
+line-height:100%;
+overflow:hidden;
+padding:10px;
+position:relative;
+z-index:1; }
+.jdte-sklz bar:before {
+position:relative;
+z-index:5;
+text-shadow: 
+  -1px 0 rgba(var(--alt),0.3),
+  0 1px rgba(var(--alt),0.3),
+  1px 0 rgba(var(--alt),0.3), 
+  0 -1px rgba(var(--alt),0.3); }
+bar.brew:before { content:'\a18'; }
+bar.pract:before { content:'\a118'; }
+bar.theory:before { content:'\e90d'; }
+bar.fly:before { content:'\a35'; }
+bar.other:before { content:'\e902'; }
+
+.jdte-sklz bar:after {
+content:'';
+position:absolute;
+  bottom:0px; top:0px; left:0px; right:0px; }
+bar.top:after { background:radial-gradient(circle at bottom, rgba(var(--alt),0.7) 75%,rgba(var(--main),0.2)); }
+bar.mid:after { background:radial-gradient(circle at bottom, rgba(var(--alt),0.7) 40%,rgba(var(--main),0.2)); }
+bar.low:after { background:radial-gradient(circle at bottom, rgba(var(--alt),0.7) 15%,rgba(var(--main),0.2)); }
+bar.bad:after { background:radial-gradient(circle at bottom, rgba(var(--alt),0.7),rgba(var(--main),0.2)); }
+
+.jdte-sklz span {
+background:#eee;
+border-radius:15px;
+color:#565656;
+display:inline-block;
+font-family:nunito;
+font-size:10px;
+font-weight:900;
+line-height:12.5px;
+margin-top:-6px;
+padding:7px 10px 5px;
+position:relative;
+text-transform:uppercase;
+width:58px;
+z-index:0; }
+.jdte-sklz span:before {
+background:transparent;
+border-radius:100%;
+box-shadow:8px 2px 0px 0px #eee;
+content:'';
+display:inline-block;
+padding:5px;
+position:absolute;
+  top:-9px; left:4px; }
+.jdte-sklz span:after {
+background:transparent;
+border-radius:100%;
+box-shadow:-8px 2px 0px 0px #eee;
+content:'';
+display:inline-block;
+padding:5px;
+position:absolute;
+  top:-9px; right:4px; }
+
+
+@font-face { font-family: 'magic retro'; src: url('https://files.jcink.net/uploads2/alohoskin22/Magic_Retro.ttf'); }
+
+#boo {
+  --main:133, 189, 186;
+  --alt:230, 160, 97;
+  --unicode:'\bb4'; }
+#adrian {
+  --main:149, 167, 225;
+  --alt:133, 132, 202;
+  --unicode:'\bb1'; }
+#colton {
+  --main:162, 75, 107;
+  --alt:117, 34, 76;
+  --unicode:'\bb7'; }
+#everly {
+  --main:220, 140, 115;
+  --alt:147, 102, 157;
+  --unicode:'\bb11'; }
+#juliana {
+  --main:200, 65, 85;
+  --alt:124, 89, 143;
+  --unicode:'\bb20'; }
+#lyonne {
+  --main:232, 186, 148;
+  --alt:226, 129, 89;
+  --unicode:'\bb8'; }
+#winifred {
+  --main:227, 146, 164;
+  --alt:204, 86, 128;
+  --unicode:'\bb9'; }
