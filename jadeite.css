@@ -31,7 +31,7 @@ display:inline-block;
 margin:10px 0px 0px;
 padding:8px;
 position:relative;
-  top:12px; left:92%;
+  top:20px; left:92%;
 text-align:center;
 transition:all ease-in-out 0.4s;
 z-index:10; }
@@ -167,6 +167,9 @@ z-index:10; }
 background:#4a4a4a;
 border-radius:15px;
 color:#ddd;
+font-size:15px;
+font-weight:500;
+line-height:25px;
 padding:15px 20px;
 height:132px; width:230px;
 position:absolute;
@@ -178,10 +181,11 @@ text-shadow:
   0 -1px #0003; }
 .jdte-extra b {
 background:rgba(var(--main),0.5);
-border-radius:5px;
+border-radius:8px;
 color:#eee;
 display:inline-block;
-font-weight:500;
+font-weight:600;
+line-height:22px;
 padding:0px 5px 1px; }
 
 .jdte-rgt {
