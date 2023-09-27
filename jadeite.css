@@ -103,13 +103,14 @@ text-shadow:
   1px 0 rgba(var(--main)), 
   0 -1px rgba(var(--main));
 z-index:-1; }
-.jdte-h2 {
+h2.jdte-h2 {
 background:#4a4a4a;
 border-top-right-radius:20px;
 border-bottom-right-radius:20px;
 color:#eee;
-display:inline-block;
 font-size:11px;
+font-weight:700;
+display:inline-block;
 padding:5px 20px;
 margin:1px 0px 0px;
 text-shadow: 
