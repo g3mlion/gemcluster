@@ -267,6 +267,7 @@ font-family:'starry';
   -webkit-font-smoothing:antialiased;
 font-size:34px;
 line-height:100%;
+margin:0px 0px -6px;
 overflow:hidden;
 padding:10px;
 position:relative;
@@ -301,12 +302,11 @@ color:#565656;
 display:inline-block;
 font-family:nunito;
 font-size:10px;
-font-weight:900;
 line-height:12.5px;
-margin-top:-6px;
+font-weight:900;
 padding:7px 10px 5px;
-position:relative;
 text-transform:uppercase;
+position:relative;
 width:58px;
 z-index:0; }
 .jdte-sklz span:before {
