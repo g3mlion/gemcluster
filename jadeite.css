@@ -35,7 +35,9 @@ position:relative;
 text-align:center;
 transition:all ease-in-out 0.4s;
 z-index:10; }
-.jadeite-tab:nth-child(odd) label { left:85.5%; } 
+.jadeite-tab:nth-child(odd) label { 
+left:85.5%;
+margin-bottom:-5px; }
 .jadeite-tab label:hover {
 background:#555;
 transition:all ease-in-out 0.4s; }
@@ -67,8 +69,7 @@ background:#f9f9f9;
 border-radius:50px;
 height:475px; max-width:80%;
 position:relative;
-z-index:5;
-}
+z-index:5; }
 h1.jdte-h1 {
 color:#4a4a4a;
 font-family:'magic retro';
