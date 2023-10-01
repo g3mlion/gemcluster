@@ -1,0 +1,190 @@
+/* NEPHRITE — post
+coded & designed by BOO
+ALL RIGHTS RESERVED 2023 - PRESENT */
+
+.nephrite {
+background:#efefef;
+color:#444;
+font-family:quicksand;
+font-size:15px;
+font-weight:500;
+line-height:25px;
+margin:35px auto;
+padding-top:15px;
+position:relative;
+text-align:right;
+width:500px; }
+
+.nephrite span.dice-roll {
+border:0px!important;
+border-bottom:2px solid #525252!important;
+font-style:normal;
+display:inline-block;
+opacity:0.8;
+position:relative;
+text-transform:uppercase; }
+
+.nephrite-wrap {
+background:rgba(var(--main),0.6);
+border-radius:30px;
+box-shadow:2px 3px 2px #dfdfdf;
+position:relative; }
+.nephrite-wrap:after {
+background:linear-gradient(to bottom right, rgba(var(--main),0) 25%, rgb(var(--alt),0.8));
+border-radius:80% 0px 80% 0px;
+border-bottom-right-radius:30px;
+content:'';
+padding:75px 150px;
+position:absolute;
+ right:0px; bottom:0px; }
+
+.nphrt-dts {
+background:#525252;
+border:10px solid #efefef;
+border-radius:50px;
+color:#eee;
+font-size:12px;
+font-weight:700;
+padding:10px 20px;
+position:absolute;
+  top:-35px; right:50px;
+text-shadow: 
+  -1px 0 #0003,
+  0 1px #0003,
+  1px 0 #0003, 
+  0 -1px #0003;
+z-index:10; }
+.nphrt-dts u {
+border-bottom:2px solid rgba(var(--main));
+font-size:14px;
+font-weight:400;
+padding:0px;
+text-decoration:none; }
+.nphrt-dts:before {
+background:transparent;
+border-top-right-radius:30px;
+content:'';
+display:inline-block;
+padding:10px;
+position:absolute;
+  bottom:0px; left:-24px;
+box-shadow:4px -4px 0px 0px #efefef; }
+.nphrt-dts:after {
+background:transparent;
+border-top-left-radius:30px;
+content:'';
+display:inline-block;
+padding:10px;
+position:absolute;
+  bottom:-0px; right:-24px;
+box-shadow:-4px -4px 0px 0px #efefef; }
+
+.nphrt-post {
+background:#f9f9f9;
+border-radius:25px 25px 0px 0px;
+padding:55px 55px 35px;
+position:relative;
+text-align:left;
+z-index:5; }
+.nphrt-post span {
+border-left:1px solid #eaeaea;
+display:inline-block;
+padding:15px 35px 30px;
+position:relative; }
+
+.nphrt-post .nphrt-uni {
+background:#fafafa;
+border-radius:150px;
+color:rgba(var(--main),0.75);
+display:inline-block;
+font-weight:400;
+height:25px;
+padding:20px 12px;
+position:absolute;
+  bottom:-30px; left:45px;
+text-align:center;
+z-index:10; }
+.nphrt-uni span {
+border:0px;
+display:inline-block;
+padding:0px;
+margin:0px 5px; }
+.nphrt-uni span:before {
+font-size:42px;
+content:var(--unicode);
+display:inline-block;
+font-family:'boolovd';
+  -webkit-font-smoothing:antialiased; }
+.nphrt-uni:before {
+background:transparent;
+border-top-right-radius:50px;
+content:'';
+display:inline-block;
+padding:9px 10px;
+position:absolute;
+  bottom:12px; left:-15px;
+box-shadow:4px -4px 0px 0px #fafafa; }
+.nphrt-uni:after {
+background:transparent;
+border-top-left-radius:50px;
+content:'';
+display:inline-block;
+padding:9px 10px;
+position:absolute;
+  bottom:12px; right:-15px;
+box-shadow:-4px -4px 0px 0px #fafafa; }
+
+.nphrt-post b { 
+color:rgba(var(--alt),0.8);
+font-weight:700; }
+.nphrt-post u { 
+border-bottom:2px solid rgba(var(--main),0.5);
+color:#666;
+font-weight:600;
+text-decoration:none; }
+.nphrt-post i { 
+opacity:0.65;
+text-shadow:none; }
+
+.nphrt-tag {
+color:#fafafa;
+font-weight:600;
+line-height:22px;
+padding:55px 35px 30px;
+position:relative;
+text-shadow: 
+  -1px 0 rgba(var(--alt),0.6),
+  0 1px rgba(var(--alt),0.6),
+  1px 0 rgba(var(--alt),0.6), 
+  0 -1px rgba(var(--alt),0.6);
+z-index:9; }
+.nphrt-tag a {
+background:rgba(var(--alt),0.3);
+border-radius:8px;
+color:#eee;
+display:inline-block;
+font-size:12px;
+font-weight:700;
+line-height:22px;
+margin-right:1px;
+padding:1px 6px 0px;
+text-decoration:none;
+text-transform:uppercase; }
+
+.nphrt-tag a.user-tagged {
+background:#525252;
+border-radius:8px;
+color:#eee;
+display:inline-block;
+font-size:12px;
+font-weight:700;
+line-height:22px;
+margin-right:1px;
+padding:1px 6px 0px;
+text-decoration:none;
+text-transform:uppercase;
+text-shadow: 
+  -1px 0 #0003,
+  0 1px #0003,
+  1px 0 #0003, 
+  0 -1px #0003; }
