@@ -18,7 +18,6 @@ width:500px; }
 .nephrite b { font-weight:700; }
 .nephrite u { 
 border-bottom:2px solid rgba(var(--main),0.5);
-color:#666;
 font-weight:600;
 text-decoration:none; }
 .nephrite i { 
