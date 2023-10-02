@@ -15,9 +15,7 @@ position:relative;
 text-align:right;
 width:500px; }
 
-.nephrite b { 
-color:rgba(var(--alt),0.8);
-font-weight:700; }
+.nephrite b { font-weight:700; }
 .nephrite u { 
 border-bottom:2px solid rgba(var(--main),0.5);
 color:#666;
@@ -103,6 +101,9 @@ border-left:1px solid #eaeaea;
 display:inline-block;
 padding:15px 35px 30px;
 position:relative; }
+.nphrt-post b { 
+color:rgba(var(--alt),0.8);
+font-weight:700; }
 
 .nphrt-post .nphrt-uni {
 background:#fafafa;
