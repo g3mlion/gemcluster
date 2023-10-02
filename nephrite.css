@@ -15,6 +15,18 @@ position:relative;
 text-align:right;
 width:500px; }
 
+.nephrite b { 
+color:rgba(var(--alt),0.8);
+font-weight:700; }
+.nephrite u { 
+border-bottom:2px solid rgba(var(--main),0.5);
+color:#666;
+font-weight:600;
+text-decoration:none; }
+.nephrite i { 
+opacity:0.65;
+text-shadow:none; }
+
 .nephrite span.dice-roll {
 border:0px!important;
 border-bottom:2px solid #525252!important;
@@ -82,7 +94,7 @@ box-shadow:-4px -4px 0px 0px #efefef; }
 .nphrt-post {
 background:#f9f9f9;
 border-radius:25px 25px 0px 0px;
-padding:55px 55px 35px;
+padding:55px 35px 35px 55px;
 position:relative;
 text-align:left;
 z-index:5; }
@@ -133,18 +145,6 @@ padding:9px 10px;
 position:absolute;
   bottom:12px; right:-15px;
 box-shadow:-4px -4px 0px 0px #fafafa; }
-
-.nphrt-post b { 
-color:rgba(var(--alt),0.8);
-font-weight:700; }
-.nphrt-post u { 
-border-bottom:2px solid rgba(var(--main),0.5);
-color:#666;
-font-weight:600;
-text-decoration:none; }
-.nphrt-post i { 
-opacity:0.65;
-text-shadow:none; }
 
 .nphrt-tag {
 color:#fafafa;
