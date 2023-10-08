@@ -408,7 +408,10 @@ height:50px; width:1px;
 }
 
 .tlmonth div:before {
-  background:#555;
+background:#555;
+border:1px solid #444;
+  border-left:0px;
+  border-right:0px;
 content:'';
 position:absolute;
   top:11px; bottom:0px; left:-23px;
