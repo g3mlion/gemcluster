@@ -136,15 +136,17 @@ display:inline-block;
 color:#6669;
 font-family:starry;
 font-size:42px;
-padding:8px 0px;
 margin:-10px -32px -15px; margin-right:5px;
+padding:8px 0px;
+position:relative;
+  top:15px;
 z-index:6;
 }
 .knzt-bag {
 background:#4a4a4a;
 border:10px solid #fafafa;
 border-radius:30px;
-padding:10px 10px 10px;
+padding:3px 10px 10px;
 padding-left:45px;
 position:absolute;
   bottom:0px; left:-90px;
