@@ -1,0 +1,206 @@
+/* NEPHELINE — post
+coded & designed by BOO
+ALL RIGHTS RESERVED 2023 - PRESENT */
+
+.nepheline {
+background:#efefef;
+color:#444;
+font-family:quicksand;
+font-size:15px;
+font-weight:500;
+line-height:25px;
+margin:35px auto;
+padding-top:15px;
+position:relative;
+width:460px; }
+
+.nepheline b { font-weight:700; }
+.nepheline u { 
+border-bottom:2px solid rgba(var(--main),0.5);
+font-weight:600;
+text-decoration:none; }
+.nepheline i { 
+opacity:0.65;
+text-shadow:none; }
+
+.nepheline span.dice-roll {
+border:0px!important;
+border-bottom:2px solid #525252!important;
+font-style:normal;
+display:inline-block;
+opacity:0.8;
+position:relative;
+text-transform:uppercase; }
+
+.nepheline-wrap {
+background:rgba(var(--main),0.6);
+border-radius:30px;
+box-shadow:0px 3px 2px #dfdfdf;
+position:relative; }
+.nepheline-wrap:after {
+background:linear-gradient(to bottom right, rgba(var(--main),0) 25%, rgb(var(--alt),0.8));
+border-radius:80% 0px 80% 0px;
+border-bottom-right-radius:30px;
+content:'';
+padding:75px 150px;
+position:absolute;
+ right:0px; bottom:0px; }
+ 
+ 
+ 
+.nphln-dts {
+background:#525252;
+border:10px solid #efefef;
+border-radius:50px;
+color:#eee;
+font-size:12px;
+font-weight:700;
+padding:10px 20px;
+position:absolute;
+  bottom:-35px; right:-20px;
+text-shadow: 
+  -1px 0 #0003,
+  0 1px #0003,
+  1px 0 #0003, 
+  0 -1px #0003;
+z-index:10;
+}
+.nphln-dts u {
+border-bottom:2px solid rgba(var(--main));
+font-size:14px;
+font-weight:400;
+padding:0px;
+text-decoration:none; }
+.nphln-dts:before {
+content:'';
+background:transparent;
+border-bottom-right-radius:30px;
+display:inline-block;
+padding:10px;
+position:absolute;
+  top:-28px; right:9px;
+box-shadow:8px 5px 0px 0px #efefef;
+}
+.nphln-dts:after {
+content:'';
+background:transparent;
+border-top-right-radius:30px;
+display:inline-block;
+padding:10px;
+position:absolute;
+  bottom:-28px; right:9px;
+box-shadow:8px -5px 0px 0px #efefef;
+}
+
+.nphln-uni {
+position:absolute;
+  bottom:-30px; left:-105px;
+ }
+.nphln-uni span {
+border:0px!important;
+display:inline-block;
+position:relative;
+ }
+.nphln-uni span:after {
+background:#525252;
+content:'';
+padding:5px 15px;
+position:relative;
+  top:-8px; left:-14px;
+  z-index:1;
+ }
+.nphln-uni span:before {
+background:#525252;
+border:10px solid #efefef;
+color:#d5d5d5;
+border-radius:100%;
+content:var(--unicode);
+display:inline-block;
+font-size:30px;
+font-weight:400;
+font-family:'boolovd';
+  -webkit-font-smoothing:antialiased;
+margin:0px; padding:10px 8px; }
+.nphln-uni:before {
+content:'';
+background:transparent;
+border-bottom-right-radius:30px;
+border-bottom-left-radius:30px;
+display:inline-block;
+padding:10px 12px;
+position:absolute;
+  top:5px; left:86px;
+box-shadow:0px 12px 0px 0px #efefef;
+  z-index:2; }
+.nphln-uni:after {
+content:'';
+background:transparent;
+border-top-right-radius:30px;
+border-top-left-radius:30px;
+display:inline-block;
+padding:10px 12px;
+position:absolute;
+  bottom:14px; left:86px;
+box-shadow:0px -12px 0px 0px #efefef;
+  z-index:2; }
+
+.nphln-post {
+background:#f9f9f9;
+border-radius:25px 25px 0px 0px;
+padding:55px 35px 25px 50px;
+position:relative;
+text-align:left;
+z-index:5; }
+.nphln-post span {
+border-left:1px solid #eaeaea;
+display:inline-block;
+padding:10px 35px 20px;
+position:relative; }
+.nphln-post b { 
+color:rgba(var(--alt),0.8);
+font-weight:700; }
+
+
+
+.nphln-tag {
+color:#fafafa;
+font-weight:600;
+line-height:22px;
+padding:55px 35px 30px;
+position:relative;
+text-shadow: 
+  -1px 0 rgba(var(--alt),0.6),
+  0 1px rgba(var(--alt),0.6),
+  1px 0 rgba(var(--alt),0.6), 
+  0 -1px rgba(var(--alt),0.6);
+z-index:9; }
+.nphln-tag a {
+background:rgba(var(--alt),0.3);
+border-radius:8px;
+color:#eee;
+display:inline-block;
+font-size:12px;
+font-weight:700;
+line-height:22px;
+margin-right:1px;
+padding:1px 6px 0px;
+text-decoration:none;
+text-transform:uppercase; }
+
+.nphln-tag a.user-tagged {
+background:#525252;
+border-radius:8px;
+color:#eee;
+display:inline-block;
+font-size:12px;
+font-weight:700;
+line-height:22px;
+margin-right:1px;
+padding:1px 6px 0px;
+text-decoration:none;
+text-transform:uppercase;
+text-shadow: 
+  -1px 0 #0003,
+  0 1px #0003,
+  1px 0 #0003, 
+  0 -1px #0003; }
