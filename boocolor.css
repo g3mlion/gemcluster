@@ -32,6 +32,12 @@
   --main:227, 146, 164;
   --alt:204, 86, 128;
   --unicode:'\bb9'; }
+#winona {
+  --main:160, 154, 101;
+  --alt:146, 114, 84;
+  --unicode:'\bb3'; }
+
+
 
 #colt { /* COLTON THILE */
   --main:162, 75, 107;
@@ -49,16 +55,10 @@
   --main:222, 159, 179;
   --alt:217, 95, 115;
   --unicode:'\bb8'; }
-#naomi { /* NAOMI NODIN */
-  --main:159, 168, 205;
-  --alt:137, 128, 179;
-  --unicode:'\bb3'; }
 #wnfrd { /* WINIFRED BARLOW */
   --main:222,137,107;
   --alt:208,113,122;
   --unicode:'\bb9'; }
-
-
 #oldevrly {
   --main:101, 177, 151;
   --alt:81, 135, 151;
