@@ -14,6 +14,7 @@ line-height:25px;
 margin:45px auto;
 position:relative;
 width:500px;
+ z-index:5;
 }
 .chrysoberyl:before {
 background:-webkit-linear-gradient(left, rgba(var(--main),0.5), rgba(var(--alt),0.65));
