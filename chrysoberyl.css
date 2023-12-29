@@ -28,7 +28,7 @@ height:20px;
 position:absolute;
  top:-5px; right:10px; left:30px;
 transform:rotate(-1.5deg);
-z-index:-1;
+z-index:-3;
 }
 .chrsbrl-out:after {
 background:-webkit-linear-gradient(left, rgba(var(--main),0.75), rgba(var(--alt),0.75));
@@ -38,7 +38,7 @@ height:20px;
 position:absolute;
  bottom:-7px; right:30px; left:10px;
 transform:rotate(-1.5deg);
-z-index:-1;
+z-index:-3;
 }
 .chrsbrl-top:before {
 background:transparent;
