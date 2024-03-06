@@ -24,18 +24,14 @@
   --main:168, 101, 117;
   --alt:124, 89, 143;
   --unicode:'\bb20'; }
-#lyonne {
-  --main:224, 185, 120;
-  --alt:226, 129, 89;
-  --unicode:'\bb8'; }
+#shense {
+  --main:139, 159, 131;
+  --alt:146, 114, 84;
+  --unicode:'\bb3'; }
 #winifred {
   --main:227, 146, 164;
   --alt:204, 86, 128;
   --unicode:'\bb9'; }
-#winona {
-  --main:139, 159, 131;
-  --alt:146, 114, 84;
-  --unicode:'\bb3'; }
 
 
 
@@ -54,6 +50,10 @@
 #lyonn { /* LYONNE DARLINGTON */
   --main:222, 159, 179;
   --alt:217, 95, 115;
+  --unicode:'\bb8'; }
+#lyonne {
+  --main:224, 185, 120;
+  --alt:226, 129, 89;
   --unicode:'\bb8'; }
 #wnfrd { /* WINIFRED BARLOW */
   --main:222,137,107;
