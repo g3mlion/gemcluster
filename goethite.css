@@ -1,0 +1,178 @@
+/* GEOTHITE — post
+coded & designed by BOO
+ALL RIGHTS RESERVED 2023 - PRESENT */
+
+.goethite {
+background-image:
+  radial-gradient(70% 53% at 36% 76%, rgba(var(--alt),0.75) 0, #ddd2 100%),
+  radial-gradient(18% 28% at 35% 87%, rgba(var(--alt),0.15) 7%, #ddd0 100%),
+  radial-gradient(31% 43% at 7% 98%, #dddd 24%, #eee0 100%),
+  radial-gradient(21% 37% at 72% 23%, rgba(var(--main),0.5) 24%, #ddd0 100%),
+  radial-gradient(74% 86% at 67% 38%, rgba(var(--main),0.95) 24%, #ddd0 100%),
+  linear-gradient(125deg, rgba(var(--main),0.55) 1%, rgba(var(--alt),0.25) 100%);
+border:1px solid #ddd;
+color:#666;
+font-family:quicksand;
+font-size:15px;
+font-weight:500;
+line-height:25px;
+margin:45px auto;
+padding:15px;
+overflow:hidden;
+position:relative;
+width:485px;
+}
+
+.goethite b { 
+color:rgba(var(--alt),0.8);
+font-weight:700; }
+.goethite u { 
+border-bottom:2px solid rgba(var(--main),0.4);
+font-weight:600;
+position:relative;
+text-decoration:none; }
+.goethite i { 
+opacity:0.8;
+font-weight:400;
+text-shadow:none; }
+
+.goethite-in {
+background:#fffd;
+border-radius:10px;
+overflow:hidden;
+position:relative;
+}
+
+.gthte-dts {
+color:#5557;
+display:inline-block;
+font-size:30px;
+font-weight:500;
+margin:25px 25px 0px;
+position:absolute;
+  right:0px;
+text-align:right;
+}
+
+.gthte-dts:before {
+border-left:1px solid #d2d2d2;
+content:'';
+position:absolute;
+  top:50%; bottom:28.5px; left:15px;
+}
+.gthte-dts:after {
+border-bottom:1px solid #d2d2d2;
+content:'';
+display:block;
+margin-left:15px;
+margin-right:40px;
+position:relative;
+  bottom:28.5px; left:0px;
+}
+
+.gthte-dts span:before {
+background:-webkit-linear-gradient(bottom right, rgba(var(--main)) -15%, rgba(var(--alt),0.5));
+border-radius:100%;
+color:#fffd;
+content:var(--unicode);
+display:inline-block;
+font-family:'starry','boolovd';
+font-size:28px;
+font-weight:300;
+line-height:100%;
+padding:8px;
+position:relative;
+  top:2.5px;
+text-shadow: 
+  -1px 0 rgba(var(--main),0.8),
+  0 1px rgba(var(--main),0.8),
+  1px 0 rgba(var(--main),0.8), 
+  0 -1px rgba(var(--main),0.8);
+}
+.gthte-dts span:after {
+background:-webkit-linear-gradient(top left, rgba(var(--alt)) -15%, rgba(var(--main),0.8));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+content:'\a137';
+font-family:'starry','boolovd';
+font-size:18px;
+position:absolute;
+  left:-15px; bottom:40%;
+}
+
+.gthte-dts u {
+border-bottom:0px;
+color:#777;
+display:inline-block;
+font-size:14px;
+font-weight:700;
+margin:10px 0px;
+padding:0px 15px 6px; padding-right:0px;
+position:relative;
+}
+
+
+.gthte-top {
+padding:125px 75px 55px;
+text-shadow: 
+  -1px 0 #fff4,
+  0 1px #fff4,
+  1px 0 #fff4, 
+  0 -1px #fff4;
+}
+
+.gthte-btm {
+background:#fff9;
+padding:30px;
+}
+
+.gthte-btm a {
+background:rgba(var(--alt),0.65);
+border-radius:8px;
+color:#fefefe;
+display:inline-block;
+font-size:10px;
+font-weight:700;
+line-height:20px;
+margin:0px 2px;
+padding:2px 7px 0px;
+text-decoration:none;
+text-transform:uppercase; }
+
+.goethite a.user-tagged { 
+background:transparent;
+border-radius:0;
+color:rgba(var(--main),0.65);
+border-bottom:1px solid #e9e9e9;
+font-size:15px;
+font-weight:700;
+letter-spacing:0px!important;
+padding:5px 3px;
+position:relative;
+text-transform:none;
+text-decoration:none;
+ }
+
+.goethite span.dice-roll {
+background:radial-gradient(ellipse at bottom center, rgba(var(--main),0.3), #f5f5f5),
+           radial-gradient(ellipse at bottom right, transparent, rgba(var(--alt),0.3));
+border-radius:10px;
+border:0px!important;
+display:inline-block;
+font-style:normal;
+font-size:12px;
+font-weight:500;
+line-height:20px;
+padding:5px 10px 6px;
+position:relative;
+text-transform:uppercase;
+text-shadow: 
+  -1px 0 #fff5,
+  0 1px #fff5,
+  1px 0 #fff5, 
+  0 -1px #fff5; }
+.goethite span.dice-roll b {
+color:rgba(var(--alt),0.85);
+border-bottom:1px solid #fff9;
+font-weight:700;
+padding:2px; }
