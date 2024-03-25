@@ -1,0 +1,181 @@
+/* AGRELLITE — post
+coded & designed by BOO / GEM
+ALL RIGHTS RESERVED 2024 - PRESENT */
+
+.agrellite {
+background:#f6f6f6;
+border:1px solid #ddd;
+box-shadow:1px 1px 5px #e0e0e0;
+color:#555;
+font-family:quicksand;
+font-size:12px;
+font-weight:500;
+line-height:25px;
+margin:45px auto;
+padding:40px;
+position:relative;
+overflow:hidden;
+text-align:right;
+text-shadow: 
+  -1px 0 #fff9,
+  0 1px #fff9,
+  1px 0 #fff9, 
+  0 -1px #fff9;
+width:450px;
+}
+
+.agrllt-in {
+border-left:1px solid rgba(var(--main),0.25);
+font-size:15px;
+padding:0px 25px 20px;
+text-align:left;
+}
+
+.agrllt-in:before {
+background:-webkit-linear-gradient(bottom right, rgba(var(--alt),0.7) -15%, rgba(var(--main),0.2));
+border-radius:100%;
+content:var(--unicode);
+display:inline-block;
+font-family:'starry','boolovd';
+  -webkit-font-smoothing:antialiased;
+font-size:42px;
+font-weight:normal;
+line-height:100%;
+padding:15px;
+position:absolute;
+  right:35px;
+text-shadow: 
+  -1px 0 #fff9,
+  0 1px #fff9,
+  1px 0 #fff9, 
+  0 -1px #fff9;
+z-index:10;
+}
+
+.agrllt-dts:before {
+border:1px solid;
+border-color:transparent transparent #666 #666;
+border-radius:100%;
+content:'';
+padding:50px;
+position:absolute;
+  top:-15px; right:-45px;
+}
+.agrllt-dts:after {
+background:#666;
+border-radius:100%;
+content:'';
+padding:2.5px;
+position:absolute;
+  top:68px; right:-33px;
+}
+.agrllt-dts span:after {
+background:#666;
+border-radius:100%;
+content:'';
+padding:2.5px;
+position:absolute;
+  top:-4px; right:37px;
+}
+
+.agrllt-dts span:before {
+background:#f6f6f6;
+border-radius:100%;
+color:rgba(var(--alt),0.75);
+content:'\a137';
+font-size:16px;
+font-weight:normal;
+font-style:normal;
+font-family:'starry','boolovd';
+  -webkit-font-smoothing:antialiased;
+line-height:100%;
+padding:5px;
+position:absolute;
+  top:58px; right:30px;
+text-shadow:none;
+}
+
+.agrllt-dts {
+position:relative;
+}
+.agrllt-dts span {
+color:#6665;
+font-size:28px;
+font-weight:500;
+font-style:italic;
+padding:15px;
+}
+.agrllt-dts b {
+background:-webkit-linear-gradient(top, rgba(var(--main),0.75) 25%, rgba(var(--alt),1));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+display:block;
+font-family: "Playfair Display", serif;
+font-size:26px;
+font-weight:900;
+line-height:102%;
+padding:0px 5px 5px;
+text-shadow:none;
+}
+
+.agrllt-blrb {
+padding:40px;
+}
+.agrllt-blrb b { 
+color:rgba(var(--alt),0.8);
+font-weight:700; }
+.agrllt-blrb u { 
+border-bottom:2px solid rgba(var(--main),0.4);
+font-weight:600;
+position:relative;
+text-decoration:none; }
+.agrllt-blrb i { 
+opacity:0.8;
+font-weight:400;
+text-shadow:none; }
+
+
+.agrellite a {
+background:rgba(var(--main),0.5);
+border-radius:20px;
+color:#fefefe;
+display:inline-block;
+font-size:12px;
+font-weight:700;
+line-height:18px;
+margin:0px 2px;
+padding:3px 10px;
+text-decoration:none;
+text-shadow: 
+  -1px 0 rgba(var(--main),0.8),
+  0 1px rgba(var(--main),0.8),
+  1px 0 rgba(var(--main),0.8), 
+  0 -1px rgba(var(--main),0.8);
+text-transform:uppercase; }
+
+.agrellite a.user-tagged { 
+background:transparent;
+border:1px solid rgba(var(--main),0.75);
+color:#777;
+text-shadow:none;
+ }
+
+.agrellite span.dice-roll {
+border:0px!important;
+border-bottom:2px solid #ddd!important;
+display:inline-block;
+font-style:normal;
+font-weight:500;
+line-height:20px;
+padding:5px 10px 6px;
+position:relative;
+text-transform:uppercase;
+text-shadow: 
+  -1px 0 #fff5,
+  0 1px #fff5,
+  1px 0 #fff5, 
+  0 -1px #fff5; }
+.agrellite span.dice-roll b {
+color:rgba(var(--alt),0.85);
+font-weight:700;
+padding:2px; }
