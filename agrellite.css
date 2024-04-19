@@ -106,13 +106,13 @@ font-style:italic;
 padding:15px;
 }
 .agrllt-dts b {
-background:-webkit-linear-gradient(top, rgba(var(--main),0.75) 25%, rgba(var(--alt),1));
+background:-webkit-linear-gradient(top, rgba(var(--main),0.75) 25%, rgba(var(--alt),1))!important;
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
 display:block;
 font-family: "Playfair Display", serif;
 font-size:26px;
-font-weight:900;
+font-weight:900!important;
 line-height:102%;
 padding:0px 5px 5px;
 text-shadow:none;
@@ -121,15 +121,15 @@ text-shadow:none;
 .agrllt-blrb {
 padding:40px;
 }
-.agrllt-blrb b { 
+.agrellite b { 
 color:rgba(var(--alt),0.8);
 font-weight:700; }
-.agrllt-blrb u { 
+.agrellite u { 
 border-bottom:2px solid rgba(var(--main),0.4);
 font-weight:600;
 position:relative;
 text-decoration:none; }
-.agrllt-blrb i { 
+.agrellite i { 
 opacity:0.8;
 font-weight:400;
 text-shadow:none; }
