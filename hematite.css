@@ -185,8 +185,6 @@ position:relative;
 }
 
 
-
-
 .hmtt-xtra {
 background:#444;
 border-radius:0px 20px 0px 0px;
@@ -234,7 +232,6 @@ opacity:0.85;
 margin:-5px 2.5px 5px;
 padding:5px;
 }
-
 
 
 .hematite-rels {
@@ -358,13 +355,13 @@ text-shadow:none;
 background:#444;
 color:#eee;
 height:350px;
-padding:25px;
+padding:25px; padding-right:0px;
 position:relative;
 }
 .hmtt-thrds {
 height:100%;
 position:relative;
-padding:0px 25px;
+padding:0px;
 overflow:auto;
 z-index:5;
 }
@@ -381,28 +378,28 @@ border:0px; }
 .tlmonth {
 background:#444;
 display:flex;
+padding:10px 0px 15px;
 text-align:left;
 position:sticky;
   top:0px;
-text-align:left;
-padding:10px 0px 15px;
 width:100%;
 z-index:10;
 }
 
 .tlmonth hr {
-  flex-basis:75%;
 background:#555;
 border:0px;
 height:1px;
 content:'';
+width:100%; margin:0 auto;
 position:relative;
-  top:5px; right:-42px;
+  top:15px;
 }
 .tlmonth div {
 color:#ddd;
 font-size:42px;
 font-weight:300;
+margin-right:60px;
 padding:5px 0px 20px;
 position:relative;
 }
@@ -415,14 +412,15 @@ font-weight:700;
 line-height:15px;
 padding:5px 15px;
 position:absolute;
-  right:-30px; bottom:0px;
+  right:-50px; bottom:0px;
 text-shadow:none;
 text-transform:uppercase;
 }
 
+
 .topic {
 background:#444;
-border:2px solid #555;
+border:1px solid #555;
 border-radius:20px;
 display:inline-block;
 overflow:hidden;
@@ -433,7 +431,7 @@ text-shadow:
   0 1px #0003,
   1px 0 #0003, 
   0 -1px #0003;
-width:157px;
+width:177px;
 }
 
 #sp.topic div:before {
