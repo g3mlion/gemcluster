@@ -9,17 +9,25 @@
   --alt:230, 160, 97;
   --unicode:'\bb4'; }
 #adrian {
-  --main:149, 167, 225;
-  --alt:119, 118, 196;
+  --main:181, 143, 193;
+  --alt:106, 107, 184;
   --unicode:'\bb1'; }
 #colton {
   --main:162, 75, 107;
   --alt:117, 34, 76;
   --unicode:'\bb7'; }
+#everly {
+  --main:220, 140, 115;
+  --alt:147, 102, 157;
+  --unicode:'\bb11'; }
 #juliana {
   --main:164, 73, 117;
   --alt:169, 37, 57;
   --unicode:'\bb20'; }
+#roseh {
+  --main:127,180,208;
+  --alt:111,102,165;
+  --unicode:'\bb8'; }
 #shense {
   --main:139, 159, 131;
   --alt:146, 114, 84;
@@ -55,10 +63,6 @@
   --main:222,137,107;
   --alt:208,113,122;
   --unicode:'\bb9'; }
-#everly {
-  --main:220, 140, 115;
-  --alt:147, 102, 157;
-  --unicode:'\bb11'; }
 #oldevrly {
   --main:101, 177, 151;
   --alt:81, 135, 151;
