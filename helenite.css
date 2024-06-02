@@ -153,6 +153,20 @@ text-decoration:none; }
 opacity:0.8;
 font-weight:500;
 text-shadow:none; }
+.hlnt-blrb a {
+background:rgba(var(--main),0.35);
+border-radius:5px;
+color:#444;
+display:inline-block;
+font-weight:700;
+margin-bottom:1px;
+padding:0px 5px 1px;
+text-decoration:none;
+text-shadow: 
+  -1px 0 rgba(var(--main),0.3),
+  0 1px rgba(var(--main),0.3),
+  1px 0 rgba(var(--main),0.3), 
+  0 -1px rgba(var(--main),0.3); }
 
 .hlnt-xtra {
 background:#444;
