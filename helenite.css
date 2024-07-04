@@ -10,7 +10,7 @@ color:#444;
 font-family:quicksand;
 font-size:15px;
 font-weight:400;
-height:570px; width:670px;
+height:570px; width:665px;
 line-height:18px;
 margin:20px auto;
 overflow:hidden;
@@ -19,9 +19,8 @@ position:relative;
 text-align:left; }
 
 .helenite-wrap {
-height:570px; width:670px;
+height:570px; width:665px;
 position:relative; }
-
 
 .helenite:before {
 border:1px solid #ddd;
@@ -45,7 +44,7 @@ font-weight:700;
 margin:20px 0px 0px;
 padding:5px 10px;
 position:relative;
-  right:-365px;
+  right:-360px;
 text-align:center;
 transition:all ease-in-out 0.4s;
 z-index:15; }
