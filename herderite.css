@@ -171,6 +171,8 @@ background:rgba(var(--alt),0.35);
 border-radius:5px;
 color:#ddd;
 display:inline-block;
+font-size:11px;
+font-weight:700;
 margin-bottom:1px;
 padding:0px 5px 1px;
 text-decoration:none;
@@ -188,12 +190,14 @@ text-shadow:
   0 -1px rgba(var(--main),0.3); }
 .hrdrt-notes a.user-tagged {
 background:transparent;
-border:1px solid rgba(var(--main),0.35);
+border:1px solid rgba(var(--main),0.6);
 border-radius:80px;
 color:#eee;
 display:inline-block;
+font-size:11px;
+font-weight:700;
 margin-bottom:1px;
-padding:0px 8px 1px;
+padding:1px 10px;
 text-decoration:none;
 text-shadow: 
   -1px 0 #0004,
