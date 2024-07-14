@@ -15,7 +15,7 @@
 #colton {
   --main:162, 75, 107;
   --alt:117, 34, 76;
-  --unicode:'\bb7'; }
+  --unicode:'\e900'; }
 #everly {
   --main:220, 140, 115;
   --alt:147, 102, 157;
@@ -27,7 +27,7 @@
 #hayes {
   --main:127,180,208;
   --alt:111,102,165;
-  --unicode:'\bb8'; }
+  --unicode:'\e902'; }
 #shense {
   --main:139, 159, 131;
   --alt:146, 114, 84;
@@ -36,6 +36,8 @@
   --main:227, 146, 164;
   --alt:204, 86, 128;
   --unicode:'\bb9'; }
+
+#loyle { --unicode:'\e901'; }
 
 
 
