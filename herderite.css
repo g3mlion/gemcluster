@@ -24,7 +24,7 @@ position:relative;
 .hrdrt-in:before {
 color:#eaeaea;
 content:var(--unicode);
-font-family:'starry','boolovd';
+font-family:'boolovd';
   -webkit-font-smoothing:antialiased;
 font-size:48px;
 font-weight:100!important;
