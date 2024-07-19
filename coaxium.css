@@ -1,0 +1,147 @@
+/* COAXIUM — post
+coded & designed by BOO
+ALL RIGHTS RESERVED 2024 - PRESENT */
+
+.coaxium {
+background-image:radial-gradient(circle at top left, rgba(var(--g1),0.25), rgb(var(--g2),0.5), #ddd);
+font-family:'proxima nova reg';
+display:block;
+color:#525252;
+margin:20px auto;
+overflow:hidden;
+padding:1px;
+position:relative;
+width:525px;
+}
+
+.coaxium-t {
+background:#f2f2f2;
+font-size:15px;
+line-height:24px;
+padding:50px 100px 0px 40px;
+position:relative;
+}
+.coaxium-t:before {
+background-image:linear-gradient(to bottom right, rgba(var(--g2),0.5) 25%, rgb(var(--g1),0.5));
+content:'';
+clip-path:polygon(0 0, 0% 100%, 100% 0);
+padding:30px;
+position:absolute;
+  top:0px; left:0px;
+}
+
+.cxmb-dts {
+background-image:linear-gradient(to top, rgba(var(--g1),0.25) 25%, rgb(var(--g2),0.75));
+color:#f2f2f2;
+font-family:'Rajdhani';
+font-size:13px;
+font-weight:500;
+padding:10px;
+position:absolute;
+  top:0px; bottom:0px; right:0px;
+text-transform:uppercase;
+width:40px;
+z-index:2;
+}
+
+.cxmb-dts span {
+display:inline-block;
+position:relative;
+  top:90px; left:-30px; right:0px;
+transform:rotate(90deg);
+text-shadow: 
+  -1px 0 rgba(var(--g2),0.25),
+  0 1px rgba(var(--g2),0.25),
+  1px 0 rgba(var(--g2),0.25), 
+  0 -1px rgba(var(--g2),0.25);
+width:100px;
+}
+.cxmb-dts b {
+font-family:'proxima nova bold';
+font-size:18px;
+line-height:24px;
+margin:0px 5px;
+text-transform:lowercase;
+}
+
+.cxmb-dts:before {
+content:'';
+background:#f2f2f2;
+height:45px; width:2px;
+margin:0px;
+padding:0px;
+position:absolute;
+  top:0px; left:50%;
+}
+.cxmb-dts:after {
+content:'';
+background:#f2f2f2;
+margin:0px;
+padding:0px;
+position:absolute;
+  top:175px; bottom:0px; left:50%;
+width:2px;
+}
+
+.cxmt-pst:before {
+background-image:linear-gradient(to top,  #ddd -15%, rgba(var(--g1),0.8), rgb(var(--g2),0.75));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+content:var(--unicode);
+font-size:52px;
+font-family:'boolovd';
+line-height:100%;
+position:absolute;
+  top:0px;
+}
+
+.cxmt-pst {
+text-align:left;
+padding:75px 15px 20px 15px;
+position:relative;
+z-index:5;
+}
+.cxmt-pst b {
+background-image:linear-gradient(to bottom, rgba(var(--g1),0.95), rgb(var(--g2)));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+font-family:'proxima nova bold';
+}
+.cxmt-pst i {
+opacity:0.8;
+}
+.cxmt-pst u {
+border-bottom:2px solid rgba(var(--g1),0.4);
+font-family:'proxima nova semi bold';
+text-decoration:none;
+}
+
+.cxmt-cmt {
+text-align:right;
+padding:25px 0px 25px;
+position:relative;
+z-index:5;
+}
+
+.cxmt-cmt a.user-tagged {
+border-bottom:2px solid rgba(var(--g2),0.4);
+color:#444c;
+display:inline-flex;
+  align-items:center;
+  align-content:center;
+  justify-content:center;
+font-family:'proxima nova bold';
+line-height:20px;
+padding-left:2px;
+position:relative;
+text-transform:lowercase;
+}
+.cxmt-cmt a.user-tagged:after {
+content:'\e092';
+display:inline-block;
+font-family: 'phosphor-thin';
+font-size:17px;
+font-weight:bold;
+margin:-2px -1px;
+margin-left:3px;
+}
