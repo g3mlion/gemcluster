@@ -1,0 +1,142 @@
+/* IRIDIUM — post
+coded & designed by BOO
+ALL RIGHTS RESERVED 2024 - PRESENT */
+
+.iridium {
+background:#eee;
+border-radius:30px;
+color:#525252;
+font-family:'nunito';
+font-size:16px;
+font-weight:400;
+line-height:22px;
+margin:35px auto;
+overflow:hidden;
+padding:1px;
+position:relative;
+width:500px;
+}
+
+.iridium-in {
+margin:35px;
+}
+
+.iridium-in span.dice-roll {
+border:0px!important;
+border-bottom:2px solid #d2d2d2!important;
+color:#444c;
+display:inline-block;
+font-weight:600;
+margin-top:25px;
+}
+
+.iridium-dst {
+display:block;
+margin-bottom:75px;
+position:relative;
+text-align:right;
+text-transform:uppercase;
+}
+
+.iridium-dst dst b {
+background-image:linear-gradient(to bottom, rgba(var(--g1),0.5) 25%, rgb(var(--g2)));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+font-family:'nunito';
+font-size:22px;
+font-weight:900;
+text-transform:lowercase;
+}
+.iridium-dst dst {
+color:#5559;
+font-family:'Rajdhani';
+font-size:16.5px;
+font-weight:600;
+line-height:20px;
+}
+
+
+.iridium-dst:before {
+background-image:linear-gradient(to bottom right, rgba(var(--g1),0.2) 15%, rgb(var(--g2),0.7));
+border-radius:100%;
+color:transparent;
+content:var(--unicode);
+font-size:52px;
+font-family:'boolovd';
+line-height:100%;
+padding:10px;
+position:absolute;
+  top:0px; left:0px;
+}
+.iridium-dst:after {
+background:#eee;
+border-radius:100%;
+color:#999;
+content:var(--unicode);
+font-size:42px;
+font-family:'boolovd';
+font-weight:400;
+line-height:100%;
+margin:1px;
+padding:14px;
+position:absolute;
+  top:0px; left:0px;
+}
+
+
+.iridium-pst:before {
+background-image:linear-gradient(to right,  #ddd -15%, rgba(var(--g1),0.8), rgb(var(--g2),0.75));
+border-radius:80px;
+content:'';
+height:8px; width:40%;
+position:absolute;
+top:-10px; left:25px;
+}
+.iridium-pst {
+padding:25px;
+position:relative;
+}
+
+.iridium-pst b {
+background-image:linear-gradient(to right, rgba(var(--g1)), rgb(var(--g2),0.9));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+font-weight:900;
+}
+.iridium-pst i {
+font-weight:400;
+opacity:0.8;
+}
+.iridium-pst u {
+border-bottom:2px solid rgba(var(--g1),0.4);
+font-weight:700;
+text-decoration:none;
+}
+
+.iridium-cmt {
+padding:10px 15px;
+text-align:right;
+}
+
+.iridium-cmt a.user-tagged {
+border-bottom:2px solid rgba(var(--g2),0.4);
+color:#555c;
+display:inline-flex;
+  align-items:center;
+  align-content:center;
+  justify-content:center;
+font-family:'proxima nova bold';
+line-height:20px;
+padding-left:2px;
+position:relative;
+text-transform:lowercase;
+}
+.iridium-cmt a.user-tagged:after {
+content:'\e092';
+display:inline-block;
+font-family: 'phosphor-thin';
+font-size:17px;
+font-weight:bold;
+margin:-2px -1px;
+margin-left:3px;
+}
