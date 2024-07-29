@@ -1,0 +1,337 @@
+/* LUMINITE — tracker
+coded & designed by BOO
+ALL RIGHTS RESERVED 2024 - PRESENT */
+
+
+#authority { --unicode:'\bb18'; }
+#cultivator { --unicode:'\bb11'; }
+#transgressor { --unicode:'\e901'; }
+
+
+.luminite {
+background:#eee;
+border-radius:30px;
+color:#525252;
+font-family:'nunito';
+font-size:16px;
+font-weight:400;
+height:600px;
+line-height:22px;
+margin:35px auto;
+overflow:hidden;
+padding:1px;
+position:relative;
+width:600px;
+}
+.luminite ::-webkit-scrollbar {
+background:transparent;
+border:0px;
+height:1px;
+width:0px; }
+.luminite ::-webkit-scrollbar-thumb {
+background:transparent;
+border:0px; }
+
+
+.luminite-h1 {
+display:block;
+margin:35px 35px 45px;
+position:relative;
+text-align:right;
+text-transform:uppercase;
+}
+
+.luminite-h1:before {
+border-radius:100%;
+color:#999;
+content:var(--unicode);
+font-size:46px;
+font-family:'boolovd';
+font-weight:400;
+line-height:100%;
+margin:-5px -10px;
+position:absolute;
+  top:10px; left:15px;
+}
+.luminite-h1:after {
+background-image:linear-gradient(to right,  #ddd -15%, rgba(var(--g1),0.8), rgb(var(--g2),0.75));
+border-radius:80px;
+content:'';
+height:8px; width:40%;
+position:absolute;
+bottom:-35px; left:0px;
+}
+
+.luminite-h1 h1 b {
+background-image:linear-gradient(to bottom, rgba(var(--g1),0.5) 25%, rgb(var(--g2)));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+font-family:'nunito';
+font-size:22px;
+font-weight:900;
+letter-spacing:0px;
+text-transform:lowercase;
+}
+
+.luminite-h1 h1 {
+color:#5559;
+font-family:'Rajdhani';
+font-size:15px;
+font-weight:600;
+letter-spacing:1px;
+margin:0px;
+padding:0px;
+}
+
+
+.luminite-in {
+display:flex;
+  flexflow:row nowrap;
+  align-items:stretch;
+position:absolute;
+  top:135px; bottom:0px; left:0px; right:0px;
+}
+
+
+
+.lmnt-lft {
+overflow:auto;
+position:relative;
+width:69%;
+}
+
+.lmnt-lft month {
+background:#eee;
+color:#5559;
+font-family:'Rajdhani';
+font-size:16.5px;
+font-weight:600;
+line-height:20px;
+display:block;
+padding-bottom:10px;
+padding-left:35px;
+position:sticky;
+  top:0px;
+text-transform:uppercase;
+z-index:5;
+}
+
+.lmnt-lft month b {
+background-image:linear-gradient(to bottom, rgba(var(--g1),0.5) 25%, rgb(var(--g2)));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+font-family:'nunito';
+font-size:20px;
+font-weight:900;
+text-transform:lowercase;
+}
+
+.lmntl-thd {
+background-image:linear-gradient(to bottom, #ddd5 45%, #ddd8);
+border-radius:15px;
+display:block;
+margin:15px 40px 25px;
+position:relative;
+z-index:2;
+}
+
+.lmntl-thd .topic {
+border-bottom:1px solid #d2d2d2;
+display:block;
+line-height:22px;
+margin:0px 30px;
+padding:25px 15px;
+position:relative;
+}
+.lmntl-thd .topic:last-child {
+border-bottom:0px;
+}
+
+.lmntl-thd .topic:before {
+background-image:linear-gradient(to right, rgba(var(--g1),0.5), rgb(var(--g2)));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+font-family:'phosphor-fill';
+font-size:20px;
+font-weight:bold;
+line-height:100%;
+margin:0px;
+padding:0px;
+position:absolute;
+  top:25px; right:15px;
+}
+.lmntl-thd #cm:before { /* tag */
+content:'\E478'!important;
+}
+.lmntl-thd #en:before { /* shield */
+content:'\E40A'!important;
+}
+.lmntl-thd #ev:before { /* ticket */
+content:'\E490'!important;
+}
+.lmntl-thd .topic.fin:before, .lmntl-thd .topic.fin a { 
+background-image:linear-gradient(to right, #8885, #8889);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+
+.lmntl-thd .topic a {
+background-image:linear-gradient(to right, rgba(var(--g1),0.5), rgb(var(--g2)));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+display:block;
+font-size:22px;
+font-weight:900;
+overflow:hidden;
+margin-bottom:5px;
+margin-right:45px;
+text-decoration:none;
+text-overflow:ellipsis;
+text-transform:lowercase;
+white-space:nowrap;
+}
+
+.lmntl-thd .topic location {
+color:#5556;
+display:block;
+font-family:'Rajdhani';
+font-size:15px;
+font-weight:600;
+letter-spacing:1px;
+line-height:18px;
+text-overflow:ellipsis;
+text-transform:uppercase;
+white-space:nowrap;
+}
+.lmntl-thd .topic tag {
+color:#555b;
+display:block;
+font-family:'Rajdhani';
+font-size:12px;
+font-weight:700;
+line-height:15px;
+text-overflow:ellipsis;
+text-transform:uppercase;
+white-space:nowrap;
+}
+
+
+
+.lmnt-rgt {
+background-image:linear-gradient(to bottom, #ddd5 45%, #ddd8);
+border-radius:15px 0px 0px 15px;
+margin:0px 0px 25px;
+padding:15px 0px 15px 15px;
+position:relative;
+width:31%;
+}
+
+.lmnt-rgt h1 {
+color:#5559;
+font-family:'Rajdhani';
+font-size:15px;
+font-weight:600;
+letter-spacing:1px;
+margin:0px;
+padding:5px;
+text-transform:uppercase;
+}
+.lmnt-rgt key {
+color:#bbb;
+display:flex;
+  align-items:center;
+padding-left:5px;
+position:relative; 
+}
+
+.lmnt-rgt key:after {
+background-image:linear-gradient(to right, rgba(var(--g1),0.2) 25%, rgb(var(--g2),0.5));
+content:'';
+display:block;
+height:1px;
+padding:0px;
+position:absolute;
+  bottom:-5px; left:10px; right:0px;
+}
+
+.lmnt-rgt key:before {
+border:1px solid #d2d2d2;
+border-radius:5px;
+content:'\E2D6';
+font-family:'phosphor-fill';
+font-size:10px;
+font-weight:bold;
+line-height:100%;
+margin:0px 7px;
+padding:4px;
+}
+.lmnt-rgt key span {
+background:#f2f2f2;
+border-radius:5px;
+margin:2.5px;
+padding:3.5px;
+}
+.lmnt-rgt key span:last-child {
+border-radius:5px 0px 0px 5px;
+}
+
+.lmnt-rgt span:before {
+content:'\E4C2';
+font-family:'phosphor-thin';
+font-size:18px;
+font-weight:bold;
+line-height:100%;
+margin:0px;
+padding:0px;
+}
+
+.lmnt-rgt #lf:before {
+content:'\E6DA'!important;
+}
+.lmnt-rgt #fr:before {
+content:'\E6A2'!important;
+}
+.lmnt-rgt #ro:before {
+content:'\E2A8'!important;
+}
+.lmnt-rgt #em:before {
+content:'\E2DE'!important;
+}
+
+.lmnt-scl {
+overflow:auto;
+position:absolute;
+  top:90px; bottom:10px; left:0px; right:0px;
+}
+.lmnt-scl span {
+border:1px solid #d2d2d2;
+border-radius:5px;
+color:#555b;
+display:flex;
+  align-items:center;
+  align-content:center;
+font-family:'Rajdhani';
+font-size:13.5px;
+font-weight:600;
+line-height:22px;
+margin:5px 15px;
+padding:5px;
+padding-left:40px;
+text-transform:uppercase;
+position:relative;
+
+}
+
+.lmnt-scl span:before {
+background-image:linear-gradient(to bottom, rgba(var(--g1),0.5) 25%, rgb(var(--g2)));
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+border-right:1px solid #d2d2d2;
+display:inline-block;
+font-size:20px;
+padding:5px 6px;
+padding-right:5px;
+position:absolute; 
+  top:0px; bottom:0px; left:0px;
+}
