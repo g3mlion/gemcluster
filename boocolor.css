@@ -16,26 +16,14 @@
   --main:162, 75, 107;
   --alt:117, 34, 76;
   --unicode:'\e900'; }
-#everly {
-  --main:220, 140, 115;
-  --alt:147, 102, 157;
-  --unicode:'\bb11'; }
 #juliana {
   --main:164, 73, 117;
   --alt:169, 37, 57;
   --unicode:'\bb20'; }
-#hayes {
-  --main:127,180,208;
-  --alt:111,102,165;
-  --unicode:'\e902'; }
 #shense {
   --main:139, 159, 131;
   --alt:146, 114, 84;
   --unicode:'\bb3'; }
-#winifred {
-  --main:227, 146, 164;
-  --alt:204, 86, 128;
-  --unicode:'\bb9'; }
 
 
 #colt { /* COLTON THILE */
@@ -46,6 +34,14 @@
   --main:220, 140, 115;
   --alt:147, 102, 157;
   --unicode:'\bb11'; }
+#everly {
+  --main:220, 140, 115;
+  --alt:147, 102, 157;
+  --unicode:'\bb11'; }
+#hayes {
+  --main:127,180,208;
+  --alt:111,102,165;
+  --unicode:'\e902'; }
 #jlina { /* JULIANA ERICKSON */
   --main:200, 65, 85;
   --alt:124, 89, 143;
@@ -70,3 +66,7 @@
   --main: 131, 91, 142;
   --alt: 78, 61, 114;
   --unicode:'\bb6'; }
+#winifred {
+  --main:227, 146, 164;
+  --alt:204, 86, 128;
+  --unicode:'\bb9'; }
