@@ -3,6 +3,11 @@
 --g2: 93, 110, 215;
 --unicode:'\e901'; }
 
+#portia {
+--g1: 210,163,44;
+--g2: 156,189,3;
+--unicode:'\bb18'; }
+
 
 .paladium {
 background:#eee;
@@ -194,6 +199,9 @@ z-index:5;
 }
 
 .paladium-cmt {
+font-family:'Rajdhani';
+font-size:14px;
+font-weight:500;
 display:block;
 padding:15px 15px 5px;
 text-align:right;
@@ -218,6 +226,7 @@ display:inline-flex;
   align-content:center;
   justify-content:center;
 font-family:'proxima nova bold';
+font-size:15.5px;
 line-height:20px;
 padding:2px 8px 3px 11px;
 position:relative;
